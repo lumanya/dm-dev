@@ -32,7 +32,7 @@
       <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-light caret-none">
         <div class="container flex-lg-row flex-nowrap align-items-center">
           <div class="navbar-brand w-100">
-            <a href="/">
+            <a href="./index.html">
               <img src="{% static 'assets/img/logo.svg' %}" width="114" height="100" alt="Daktari Mkononi Pharmacy Dawa Mkononi App Logo"  />
             </a>
           </div>
@@ -151,7 +151,21 @@
                     <!-- /auto-column -->
                   </div>
                 </li>
-        
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog</a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-item"><a class="dropdown-item" href="./blog.html">Blog without Sidebar</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./blog2.html">Blog with Sidebar</a></li>
+                    <li class="nav-item"><a class="dropdown-item" href="./blog3.html">Blog with Left Sidebar</a></li>
+                    <li class="dropdown dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Blog Posts</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item"><a class="dropdown-item" href="./blog-post.html">Post without Sidebar</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="./blog-post2.html">Post with Sidebar</a></li>
+                        <li class="nav-item"><a class="dropdown-item" href="./blog-post3.html">Post with Left Sidebar</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
                 <li class="nav-item dropdown dropdown-mega">
                   <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Blocks</a>
                   <ul class="dropdown-menu mega-menu mega-menu-dark mega-menu-img">
@@ -179,13 +193,20 @@
                           <h6 class="dropdown-header">Usage</h6>
                           <ul class="list-unstyled cc-2 pb-lg-1">
                             <li><a class="dropdown-item" href="./docs/index.html">Get Started</a></li>
-                         
+                            <li><a class="dropdown-item" href="./docs/forms.html">Forms</a></li>
+                            <li><a class="dropdown-item" href="./docs/faq.html">FAQ</a></li>
+                            <li><a class="dropdown-item" href="./docs/changelog.html">Changelog</a></li>
+                            <li><a class="dropdown-item" href="./docs/credits.html">Credits</a></li>
                           </ul>
                           <h6 class="dropdown-header mt-lg-6">Styleguide</h6>
                           <ul class="list-unstyled cc-2">
                             <li><a class="dropdown-item" href="./docs/styleguide/colors.html">Colors</a></li>
                             <li><a class="dropdown-item" href="./docs/styleguide/fonts.html">Fonts</a></li>
-                         
+                            <li><a class="dropdown-item" href="./docs/styleguide/icons-svg.html">SVG Icons</a></li>
+                            <li><a class="dropdown-item" href="./docs/styleguide/icons-font.html">Font Icons</a></li>
+                            <li><a class="dropdown-item" href="./docs/styleguide/illustrations.html">Illustrations</a></li>
+                            <li><a class="dropdown-item" href="./docs/styleguide/backgrounds.html">Backgrounds</a></li>
+                            <li><a class="dropdown-item" href="./docs/styleguide/misc.html">Misc</a></li>
                           </ul>
                         </div>
                         <!--/column -->
@@ -293,39 +314,33 @@
       <!-- /.offcanvas -->
     </header>
     <!-- /header -->
-    <section class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600" data-image-src="{% static 'assets/img/photos/bg23.png' %}">
-      <div class="container pt-16 pt-md-18 pb-9">
-        <div class="row gx-0 gy-10 align-items-center text-center text-lg-start">
-          <div class="col-lg-6 col-xxl-5 position-relative" data-cues="slideInDown" data-group="page-title" data-delay="700">
-            <img src="{% static 'assets/img/svg/doodle1.svg' %}" class="h-9 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="top: -9%; left: -6%" alt="">
-            <img src="{% static 'assets/img/svg/doodle2.svg' %}" class="h-15 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="bottom: 9%; right: -22%" alt="">
-            <h1 class="display-1 fs-50 mb-4">Innovating Africa's Pharmaceutical<span class="text-gradient gradient-7">Supply Chain.</span></h1>
-            <p class="lead fs-24 lh-sm mb-7">Empowering health facilities with data-driven medicine distribution.</p>
-            <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="1800">
-              <span><a href="#" class="me-2"><img src="{% static 'assets/img/photos/button-appstore.svg' %}" class="h-9 rounded-xl" alt=""></a></span>
-              <span><a href="#"><img src="{% static 'assets/img/photos/button-google-play.svg' %}" class="h-9 rounded-xl" alt=""></a></span>
+    <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
+      <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-image-src="{% static 'assets/img/photos/home.png' %}">
+        <a href="{% static 'assets/media/movie3.mp4' %}" class="btn btn-circle btn-primary btn-play ripple mx-auto position-absolute d-lg-none" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox data-gallery="mobile-video"><i class="icn-caret-right"></i></a>
+      </div>
+      <!--/column -->
+      <div class="container position-relative" data-cue="fadeIn" data-delay="600">
+        <a href="{% static 'assets/media/movie3.mp4' %}" class="btn btn-circle btn-primary btn-play ripple mx-auto position-absolute d-none d-lg-flex" style="top:50%; left: 50%; transform: translate(-50%,-50%); z-index:3;" data-glightbox data-gallery="desktop-video"><i class="icn-caret-right"></i></a>
+        <div class="row gx-0">
+          <div class="col-lg-6 offset-lg-6">
+            <div class="py-12 py-lg-16 ps-lg-12 py-xxl-18 ps-xxl-16 pe-lg-0 position-relative" data-cues="slideInDown" data-group="page-title">
+              <img src="{% static 'assets/img/svg/doodle1.svg' %}" class="h-9 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="top: -9%; left: -6%" alt="">
+              <img src="{% static 'assets/img/svg/doodle2.svg' %}" class="h-15 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="bottom: 9%; right: -22%" alt="">
+              <h1 class="display-1 fs-50 mb-4">Innovating Africa's Pharmaceutical<span class="text-gradient gradient-7">Supply Chain .</span></h1>
+              <p class="lead fs-24 lh-sm mb-7">Empowering health facilities with data-driven medicine distribution.</p>
+              <div class="d-flex justify-content-center justify-content-lg-start" data-cues="slideInDown" data-group="page-title-buttons" data-delay="1800">
+                <span><a href="#" class="me-2"><img src="{% static 'assets/img/photos/button-appstore.svg' %}" class="h-9 rounded-xl" alt=""></a></span>
+                <span><a href="#"><img src="{% static 'assets/img/photos/button-google-play.svg' %}" class="h-9 rounded-xl" alt=""></a></span>
+              </div>
             </div>
           </div>
           <!-- /column -->
-          <div class="col-lg-6 ms-auto mb-n20 mb-xxl-n22" data-cues="slideInDown" data-delay="600">
-            <figure><img src="{% static 'assets/img/photos/devices3.png' %}" alt=""></figure>
-          </div>
-          <!-- /column -->
         </div>
-        <!-- /.row -->
+        <!--/.row -->
       </div>
       <!-- /.container -->
-      <div class="overflow-hidden" style="z-index:1;">
-        <div class="divider text-light mx-n2">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
-            <g fill="currentColor">
-              <polygon points="1440 100 0 100 0 85 1440 0 1440 100" />
-            </g>
-          </svg>
-        </div>
-      </div>
-      <!-- /.overflow-hidden -->
     </section>
+    <!-- /section -->
 
     <section class="wrapper bg-light wrapper-border">
       <div class="container py-14 py-md-16">
@@ -359,7 +374,61 @@
       <div class="container pt-18 pt-md-20 pb-14 pb-md-16">
         <div class="row text-center">
      
-      
+        <!-- /.row -->
+        <div class="row text-center">
+          <div class="col-md-10 col-lg-7 mx-auto position-relative">
+            <img src="{% static 'assets/img/svg/doodle5.svg' %}" class="w-15 position-absolute d-none d-lg-block" data-delay="1800" style="bottom: -60%; right: 10%" alt="">
+            <img src="{% static 'assets/img/svg/doodle6.svg' %}" class="h-15 position-absolute d-none d-lg-block" data-delay="1800" style="top: -40%; left: -5%" alt="">
+            <h2 class="fs-16 text-uppercase text-muted mb-3">How It Works</h2>
+            <h3 class="display-3 mb-8 px-xl-6">Download the app, create your profile and <span class="text-gradient gradient-7">voilà</span>, you're all set!</h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row mb-lg-20 mb-xl-23">
+          <div class="col-xxl-11 mx-auto">
+            <div class="row gy-10 gy-lg-0 text-center d-flex align-items-center">
+              <div class="col-md-6 col-lg-4 mx-auto mb-n10 mb-lg-0">
+                <figure class="mx-auto"><img src="{% static 'assets/img/photos/devices4.png' %}" srcset="./assets/img/photos/devices4@2x.png 2x" alt=""></figure>
+              </div>
+              <!-- /column -->
+              <div class="w-100 d-lg-none"></div>
+              <div class="col-md-6 col-lg-4 order-lg-first">
+                <div class="mb-8">
+                  <span class="fs-60 lh-1 mb-3 fw-normal text-gradient gradient-7">01</span>
+                  <h4 class="fs-20">Download Application</h4>
+                  <p class="mb-0 px-xl-7">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <!-- /div -->
+                <div>
+                  <span class="fs-60 lh-1 mb-3 fw-normal text-gradient gradient-7">02</span>
+                  <h4 class="fs-20">Quick Registration</h4>
+                  <p class="mb-0 px-xl-7">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <!-- /div -->
+              </div>
+              <!-- /column -->
+              <div class="col-md-6 col-lg-4">
+                <div class="mb-8">
+                  <span class="fs-60 lh-1 mb-3 fw-normal text-gradient gradient-7">03</span>
+                  <h4 class="fs-20">Track Your Spending</h4>
+                  <p class="mb-0 px-xl-7">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <!-- /div -->
+                <div>
+                  <span class="fs-60 lh-1 mb-3 fw-normal text-gradient gradient-7">04</span>
+                  <h4 class="fs-20">Have Total Control</h4>
+                  <p class="mb-0 px-xl-7">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus.</p>
+                </div>
+                <!-- /div -->
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
       </div>
       <!-- /.container -->
     </section>
@@ -372,7 +441,8 @@
               <div class="player" data-plyr-provider="vimeo" data-plyr-embed-id="165101721"></div>
             </div>
             <div class="position-relative">
-              
+              <img src="{% static 'assets/img/svg/doodle7.svg' %}" class="h-7 position-absolute d-none d-lg-block" data-delay="1800" style="top: -90%; right: -3%" alt="">
+              <img src="{% static 'assets/img/svg/doodle8.svg' %}" class="h-14 position-absolute d-none d-lg-block" data-delay="1800" style="top: -20%; left: -12%" alt="">
               <h2 class="fs-16 text-uppercase text-muted mb-3 text-center">FAQ</h2>
               <h3 class="display-3 mb-11 px-lg-8 px-xl-11 text-center">If you don't see an <span class="text-gradient gradient-7">answer</span> to your question, you can send us an email from our contact form.</h3>
             </div>
@@ -528,12 +598,10 @@
             <!-- /.wrapper -->
           </section>
     <!-- /section -->
-
-    
     <section class="wrapper bg-light">
       <div class="container-card">
-        <div class="card  bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" >
-          <div class="card-body py-14 px-0 bg-soft-primary" style="border-radius: 1rem;">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" data-image-src="{% static 'assets/img/photos/bg22.png' %}">
+          <div class="card-body py-14 px-0">
             <div class="container">
               <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
                 <div class="col-lg-4 text-center text-lg-start">
@@ -544,21 +612,21 @@
                 <div class="col-lg-8 mt-lg-2">
                   <div class="row align-items-center counter-wrapper gy-6 text-center">
                     <div class="col-md-4">
-                      <img src="{% static 'assets/img/icons/solid/discussion.svg' %}" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
-                      <h3 class="counter">2,200</h3>
-                      <p class="mb-0">Active Customers</p>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-4">
-                      <img src="{% static 'assets/img/icons/solid/currency.svg' %}" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
-                      <h3 class="counter">$200</h3>
-                      <p class="mb-0">Average Order value</p>
-                    </div>
-                    <!--/column -->
-                    <div class="col-md-4">
                       <img src="{% static 'assets/img/icons/solid/target.svg' %}" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
-                      <h3 class="counter">$5,448,405</h3>
-                      <p class="mb-0">Sales Jan-Oct 2024</p>
+                      <h3 class="counter">1000+</h3>
+                      <p class="mb-0">Completed Projects</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <img src="{% static 'assets/img/icons/solid/bar-chart.svg' %}" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
+                      <h3 class="counter">4x</h3>
+                      <p class="mb-0">Revenue Growth</p>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-4">
+                      <img src="{% static 'assets/img/icons/solid/employees.svg' %}" class="svg-inject icon-svg icon-svg-sm solid-duo text-grape-fuchsia mb-3" alt="" />
+                      <h3 class="counter">99.7%</h3>
+                      <p class="mb-0">Customer Satisfaction</p>
                     </div>
                     <!--/column -->
                   </div>
@@ -582,11 +650,11 @@
               <div class="card shadow-lg card-border-bottom border-soft-primary">
                 <div class="card-body">
                   <blockquote class="border-0 mb-0">
-                    <p>“The payment system makes the whole process of procuring medicine becomes seamless.”</p>
+                    <p>“Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta. Cras mattis consectetur.”</p>
                     <div class="blockquote-details">
                       <div class="info ps-0">
-                        <h5 class="mb-1">Licks the Pharmacy</h5>
-                        <p class="mb-0">Masaki</p>
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
                       </div>
                     </div>
                   </blockquote>
@@ -600,11 +668,11 @@
               <div class="card shadow-lg card-border-bottom border-soft-primary">
                 <div class="card-body">
                   <blockquote class="border-0 mb-0">
-                    <p>“This is a revolution in wholesale business! My Kariakoo routes are now no more!”</p>
+                    <p>“Fusce dapibus, tellus ac cursus tortor mauris condimentum fermentum massa justo sit amet purus sit amet fermentum.”</p>
                     <div class="blockquote-details">
                       <div class="info ps-0">
-                        <h5 class="mb-1">24/7 Pharmacy</h5>
-                        <p class="mb-0">Sinza</p>
+                        <h5 class="mb-1">Cory Zamora</h5>
+                        <p class="mb-0">Marketing Specialist</p>
                       </div>
                     </div>
                   </blockquote>
@@ -618,11 +686,11 @@
               <div class="card shadow-lg card-border-bottom border-soft-primary">
                 <div class="card-body">
                   <blockquote class="border-0 mb-0">
-                    <p>“DM has a great variety of products that I can order from.”</p>
+                    <p>“Curabitur blandit tempus porttitor. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor eu rutrum. Nulla vitae libero.”</p>
                     <div class="blockquote-details">
                       <div class="info ps-0">
-                        <h5 class="mb-1">Aeromeda Specialized Polyclinic</h5>
-                        <p class="mb-0">Ilala</p>
+                        <h5 class="mb-1">Nikolas Brooten</h5>
+                        <p class="mb-0">Sales Manager</p>
                       </div>
                     </div>
                   </blockquote>
@@ -636,11 +704,11 @@
               <div class="card shadow-lg card-border-bottom border-soft-primary">
                 <div class="card-body">
                   <blockquote class="border-0 mb-0">
-                    <p>“Despite the distance I still get my goods on the same day! Grateful for the app.”</p>
+                    <p>“Etiam adipiscing tincidunt elit convallis felis suscipit ut. Phasellus rhoncus eu tincidunt auctor nullam rutrum, pharetra augue.”</p>
                     <div class="blockquote-details">
                       <div class="info ps-0">
-                        <h5 class="mb-1">AD Medics DLDM </h5>
-                        <p class="mb-0">Goba</p>
+                        <h5 class="mb-1">Coriss Ambady</h5>
+                        <p class="mb-0">Financial Analyst</p>
                       </div>
                     </div>
                   </blockquote>
@@ -650,7 +718,6 @@
               <!-- /.card -->
             </div>
             <!--/column -->
-          
           </div>
           <!-- /.row -->
         </div>
@@ -788,20 +855,20 @@
       <div class="row mb-3">
         <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
           <h2 class="fs-15 text-uppercase text-muted mb-3">Our Team</h2>
-          <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Led by Visionaries</h3>
+          <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Think unique and be innovative. Make a difference with Sandbox.</h3>
         </div>
         <!--/column -->
       </div>
       <!--/.row -->
       <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0">
         <div class="col-md-6 col-lg-3">
-          <div class="position-relative text-center">
+          <div class="position-relative">
             <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
             <div class="card">
-              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te1.png' %}" alt="" /></figure>
+              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/t1.jpg' %}" alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Joseph Paul</h4>
-                <p class="mb-0">CEO</p>
+                <h4 class="mb-1">Coriss Ambady</h4>
+                <p class="mb-0">Financial Analyst</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -811,13 +878,13 @@
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3">
-          <div class="position-relative text-center">
+          <div class="position-relative">
             <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
             <div class="card">
-              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te2.png' %}" alt="" /></figure>
+              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/t2.jpg' %}"" alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Clemence Exaudi</h4>
-                <p class="mb-0">COO</p>
+                <h4 class="mb-1">Cory Zamora</h4>
+                <p class="mb-0">Marketing Specialist</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -827,13 +894,13 @@
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3">
-          <div class="position-relative text-center">
+          <div class="position-relative">
             <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
             <div class="card">
-              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te3.png' %}"  alt="" /></figure>
+              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/t3.jpg' %}"  alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Asorael Ayo</h4>
-                <p class="mb-0">CTO</p>
+                <h4 class="mb-1">Nikolas Brooten</h4>
+                <p class="mb-0">Sales Manager</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -843,13 +910,13 @@
         </div>
         <!--/column -->
         <div class="col-md-6 col-lg-3">
-          <div class="position-relative text-center">
+          <div class="position-relative">
             <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
             <div class="card">
-              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te4.png' %}"  alt="" /></figure>
+              <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/t4.jpg' %}"  alt="" /></figure>
               <div class="card-body px-6 py-5">
-                <h4 class="mb-1">Shamsa Ibrahim</h4>
-                <p class="mb-0">CFO</p>
+                <h4 class="mb-1">Jackie Sanders</h4>
+                <p class="mb-0">Investment Planner</p>
               </div>
               <!--/.card-body -->
             </div>
@@ -869,8 +936,8 @@
     <div class="container py-14 pt-md-16 pb-md-18">
       <div class="row pt-md-12">
         <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
-          
-          <h4 class="display-4 mb-8 px-lg-12">Improving Access to Medicines in Africa</h4>
+          <h2 class="fs-15 text-uppercase text-muted mb-3">Join Our Community</h2>
+          <h3 class="display-4 mb-8 px-lg-12">We are trusted by over 5000+ clients. Join them now and grow your business.</h3>
         </div>
         <!-- /.row -->
       </div>
@@ -879,18 +946,18 @@
         <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
           <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
             <div class="col-md-4 text-center">
-              <h3 class="counter counter-lg text-primary">300,000</h3>
-              <p>Patient Served 2024</p>
+              <h3 class="counter counter-lg text-primary">7518</h3>
+              <p>Completed Projects</p>
             </div>
             <!--/column -->
             <div class="col-md-4 text-center">
-              <h3 class="counter counter-lg text-primary">1000</h3>
-              <p>Supply to the low income community</p>
+              <h3 class="counter counter-lg text-primary">5472</h3>
+              <p>Happy Customers</p>
             </div>
             <!--/column -->
             <div class="col-md-4 text-center">
-              <h3 class="counter counter-lg text-primary">$4M</h3>
-              <p>Credit Financing</p>
+              <h3 class="counter counter-lg text-primary">2184</h3>
+              <p>Expert Employees</p>
             </div>
             <!--/column -->
           </div>
