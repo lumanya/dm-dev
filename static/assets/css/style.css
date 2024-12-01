@@ -26,7 +26,7 @@ Author:		elemis
     --bs-pink: #d16b86;
     --bs-fuchsia: #e668b3;
     --bs-red: #e2626b;
-    --bs-orange: #f78b77;
+    --bs-orange: #ed2b2c;
     --bs-yellow: #fab758;
     --bs-green: #45c4a0;
     --bs-leaf: #7cb798;
@@ -101,7 +101,7 @@ Author:		elemis
     --bs-soft-navy: #ecedef;
     --bs-soft-ash: #f5f5f6;
     --bs-soft-gray: rgba(164, 174, 198, 0.2);
-    --bs-pale-primary: #e0e9fa;
+    --bs-pale-primary: #feeeee;
     --bs-pale-blue: #e0e9fa;
     --bs-pale-sky: #e5f4fd;
     --bs-pale-purple: #e9eaf8;
@@ -113,6 +113,7 @@ Author:		elemis
     --bs-pale-orange: #feece9;
     --bs-pale-yellow: #fef3e4;
     --bs-pale-green: #e1f6f0;
+    --bs-pale-black: #000000;
     --bs-pale-leaf: #eaf3ef;
     --bs-pale-aqua: #e4f1f6;
     --bs-pale-navy: #dfe0e3;
@@ -5036,19 +5037,19 @@ fieldset:disabled .btn {
 
 .btn-orange {
     --bs-btn-color: #343f52;
-    --bs-btn-bg: #f78b77;
-    --bs-btn-border-color: #f78b77;
+    --bs-btn-bg: #ed2b2c;
+    --bs-btn-border-color: #ed2b2c;
     --bs-btn-hover-color: #343f52;
-    --bs-btn-hover-bg: #f78b77;
-    --bs-btn-hover-border-color: #f78b77;
+    --bs-btn-hover-bg: #ed2b2c;
+    --bs-btn-hover-border-color: #ed2b2c;
     --bs-btn-focus-shadow-rgb: 218, 128, 113;
     --bs-btn-active-color: #343f52;
-    --bs-btn-active-bg: #f78b77;
-    --bs-btn-active-border-color: #f78b77;
+    --bs-btn-active-bg: #ed2b2c;
+    --bs-btn-active-border-color: #ed2b2c;
     --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
     --bs-btn-disabled-color: #343f52;
-    --bs-btn-disabled-bg: #f78b77;
-    --bs-btn-disabled-border-color: #f78b77
+    --bs-btn-disabled-bg: #ed2b2c;
+    --bs-btn-disabled-border-color: #ed2b2c
 }
 
 .btn-yellow {
@@ -5239,20 +5240,20 @@ fieldset:disabled .btn {
 }
 
 .btn-secondary {
-    --bs-btn-color: #343f52;
-    --bs-btn-bg: #aab0bc;
-    --bs-btn-border-color: #aab0bc;
-    --bs-btn-hover-color: #343f52;
-    --bs-btn-hover-bg: #aab0bc;
-    --bs-btn-hover-border-color: #aab0bc;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-hover-border-color: #fff;
     --bs-btn-focus-shadow-rgb: 152, 159, 172;
-    --bs-btn-active-color: #343f52;
-    --bs-btn-active-bg: #aab0bc;
-    --bs-btn-active-border-color: #aab0bc;
+    --bs-btn-active-color: #000000;
+    --bs-btn-active-bg: #fff;
+    --bs-btn-active-border-color: #fff;
     --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
-    --bs-btn-disabled-color: #343f52;
-    --bs-btn-disabled-bg: #aab0bc;
-    --bs-btn-disabled-border-color: #aab0bc
+    --bs-btn-disabled-color: #000000;
+    --bs-btn-disabled-bg: #fff;
+    --bs-btn-disabled-border-color: #fff
 }
 
 .btn-success {
@@ -5460,19 +5461,19 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-orange {
-    --bs-btn-color: #f78b77;
-    --bs-btn-border-color: #f78b77;
+    --bs-btn-color: #ed2b2c;
+    --bs-btn-border-color: #ed2b2c;
     --bs-btn-hover-color: #343f52;
-    --bs-btn-hover-bg: #f78b77;
-    --bs-btn-hover-border-color: #f78b77;
+    --bs-btn-hover-bg: #ed2b2c;
+    --bs-btn-hover-border-color: #ed2b2c;
     --bs-btn-focus-shadow-rgb: 247, 139, 119;
     --bs-btn-active-color: #343f52;
-    --bs-btn-active-bg: #f78b77;
-    --bs-btn-active-border-color: #f78b77;
+    --bs-btn-active-bg: #ed2b2c;
+    --bs-btn-active-border-color: #ed2b2c;
     --bs-btn-active-shadow: 0rem 0.25rem 0.75rem rgba(30, 34, 40, 0.15);
-    --bs-btn-disabled-color: #f78b77;
+    --bs-btn-disabled-color: #ed2b2c;
     --bs-btn-disabled-bg: transparent;
-    --bs-btn-disabled-border-color: #f78b77;
+    --bs-btn-disabled-border-color: #ed2b2c;
     --bs-gradient: none
 }
 
@@ -13966,7 +13967,7 @@ fieldset:disabled .btn {
 
 .text-orange {
     --bs-text-opacity: 1;
-    color: #f78b77 !important
+    color: #ed2b2c !important
 }
 
 .text-yellow {
@@ -30252,7 +30253,7 @@ h6 {
 }
 
 .text-line.text-orange:before {
-    background-color: #f78b77
+    background-color: #ed2b2c
 }
 
 .text-line.text-yellow:before {
@@ -31323,6 +31324,10 @@ figure img {
 
 .bg-pale-green {
     background-color: var(--bs-pale-green) !important
+}
+
+.bg-pale-black {
+    background-color: var(--bs-pale-black) !important
 }
 
 .bg-pale-leaf {
@@ -33077,7 +33082,7 @@ mark.doc {
     display: inline-block
 }
 
-.text-gradient em {
+.bg-pale-green em {
     letter-spacing: normal;
     padding-left: .05em;
     padding-right: .05em
@@ -42056,6 +42061,9 @@ img.svg-inject {
     fill: #414b64
 }
 
+.solid-duo.text-red-black .fill-primary {
+    fill: #ed2b2c
+}
 .solid-duo.text-navy-green .fill-secondary {
     fill: #45c4a0
 }
