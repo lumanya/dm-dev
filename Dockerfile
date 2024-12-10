@@ -5,7 +5,7 @@ FROM python:3.8-slim-buster AS builder
 WORKDIR /app
 
 # Update the package lists and install necessary build tools and libraries
-RUN apt-get update && apt-get install -y build-essential libpq-dev && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y build-essential libpq-dev gettext && rm -rf /var/lib/apt/lists/*
 
 # Copy the requirements file into the container
 COPY requirements.txt .
@@ -19,6 +19,9 @@ FROM python:3.8-slim-buster
 # Set the working directory inside the container
 WORKDIR /app
 
+# Install gettext in the runtime stage
+RUN apt-get update && apt-get install -y gettext && rm -rf /var/lib/apt/lists/*
+
 # Copy dependencies from the builder stage into the final image
 COPY --from=builder /install /usr/local
 
@@ -27,6 +30,8 @@ COPY . .
 
 # Set Python environment variable for unbuffered output
 ENV PYTHONUNBUFFERED=1
+ENV DJANGO_SETTINGS_MODULE=dawamkononi.settings
+
 
 # Expose port 8001
 EXPOSE 8000

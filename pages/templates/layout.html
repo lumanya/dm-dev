@@ -1,0 +1,250 @@
+{% load static %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <meta name="author" content="churchycodes">
+  <title>Dawa Mkononi · {% trans 'Pharmaceuticals At Your Fingertips' %}</title>
+	<meta name="keywords" content="buy order delivery online medicines,dawa nunua bei kuagiza kuletewa oda Dawa Mkononi Pharmaceuticals madawa">
+	<meta name="description" content="Dawa Mkononi, Pharmaceuticals At Your Fingertips buy medicine online, mobile app, medicine delivery, oda ">
+	<meta property="og:title" content="Dawa Mkononi · Pharmaceuticals At Your Fingertips">
+	<meta property="og:site_name" content="www.dawamkononi.co.tz">
+	<meta property="og:description" content="Dawa Mkononi (DM) is a registered company that mainly focuses on innovations to improve pharmaceutical supply chain. The app is run by DM Pharmacy located at Kariakoo in Dar es Salaam. The app currently serves for wholesale business only to pharmacies, ADDOs, and health facilities such as Hospitals and Clinics.">
+
+	<meta property="al:android:url" content="https://play.google.com/store/apps/details?id=com.dawamkononi.buyers">	
+	<meta property="al:android:app_name" content="dawa mkononi">
+	<meta property="al:ios:url" content="https://apps.apple.com/tz/app/dawa-mkononi/id1625919956">
+	<meta property="al:ios:app_name" content="dawa mkononi">
+	<meta property="al:ios:app_store_id" content="id1625919956">
+  <link rel="shortcut icon" href="{% static 'assets/img/favicon1.png' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/plugins.css' %}">
+  <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+  <link rel="stylesheet" href="{% static 'assets/css/colors/orange.css' %}">
+  <link rel="preload" href="{% static 'assets/css/fonts/urbanist.css' %}" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+    <div class="content-wrapper">
+        <header class="wrapper">
+          <nav class="navbar navbar-expand-lg center-nav transparent navbar-light">
+            <div class="container flex-lg-row flex-nowrap align-items-center">
+              <div class="navbar-brand w-100">
+                <a href="{% url 'home' %}">
+                  <img class="logo-dark" src="{% static 'assets/img/logo.svg' %}"  width="114" height="50"  alt="" />
+                  <img class="logo-light" src="{% static 'assets/img/logo.svg' %}"width="114" height="50" alt="" />
+                </a>
+              </div>
+              <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                <div class="offcanvas-header d-lg-none">
+                  <a href="{% url 'home' %}"><img src="{% static 'assets/img/logo-light.svg' %}" width="114"
+                      height="50" alt="Daktari Mkononi Pharmacy Dawa Mkononi App Logo" /></a>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                  <ul class="navbar-nav">
+                  
+                      <li class="nav-item"><a class="nav-link hover" href="{% url 'about' %}">{% trans 'About Us' %}</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link hover" href="{% url 'team' %}">{% trans 'Our Team' %}</a>
+                      </li>
+                      <li class="nav-item"><a class="nav-link hover" href="{% url 'contact' %}">{% trans 'Contact Us' %}</a>
+                      </li>
+                  </ul>
+                  <!-- /.navbar-nav -->
+                  <div class="offcanvas-footer d-lg-none">
+                    <div>
+                      <a href="/cdn-cgi/l/email-protection#02646b7071762c6e63717642676f636b6e2c616d6f" class="link-inverse"><span class="__cf_email__" data-cfemail="1b72757d745b7e767a727735787476">[email&#160;protected]</span></a>
+                      <br /> 00 (123) 456 78 90 <br />
+                      <nav class="nav social social-white mt-4">
+                        <a href="#"><i class="uil uil-twitter"></i></a>
+                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        <a href="#"><i class="uil uil-dribbble"></i></a>
+                        <a href="#"><i class="uil uil-instagram"></i></a>
+                        <a href="#"><i class="uil uil-youtube"></i></a>
+                      </nav>
+                      <!-- /.social -->
+                    </div>
+                  </div>
+                  <!-- /.offcanvas-footer -->
+                </div>
+                <!-- /.offcanvas-body -->
+              </div>
+              <!-- /.navbar-collapse -->
+              <div class="navbar-other w-100 d-flex ms-auto">
+                <ul class="navbar-nav flex-row align-items-center ms-auto" data-sm-skip="true">
+                
+                  <li class="nav-item d-none d-md-block">
+                    <nav class="nav social justify-content-end text-end">
+                      <a href="https://www.linkedin.com/company/dawa-mkononi/" target="_blank"
+                        class="btn btn-circle btn-sm btn-primary"><i class="uil uil-linkedin"></i></a>
+                      <a href="https://twitter.com/DawaMkononi" target="_blank"
+                        class="btn btn-circle btn-sm btn-primary"><i class="uil uil-twitter"></i></a>
+                      <a href="https://www.instagram.com/dawamkononi" target="_blank"
+                        class="btn btn-circle btn-sm btn-primary"><i class="uil uil-instagram"></i></a>
+                    </nav>
+                  </li>
+                  <li class="nav-item d-lg-none">
+                    <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                  </li>
+                </ul>
+              </div>
+              
+              <!-- /.navbar-other -->
+            </div>
+            <!-- /.container -->
+          </nav>
+          
+          <!-- /.navbar -->
+          <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
+            <div class="offcanvas-header">
+              <h3 class="text-white fs-30 mb-0">Sandbox</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body pb-6">
+              <div class="widget mb-8">
+                <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.</p>
+              </div>
+              <!-- /.widget -->
+              <div class="widget mb-8">
+                <h4 class="widget-title text-white mb-3">Contact Info</h4>
+                <address> Moonshine St. 14/05 <br /> Light City, London </address>
+                <a href="/cdn-cgi/l/email-protection#80e6e9f2f3f4aeece1f3f4c0e5ede1e9ecaee3efed"><span class="__cf_email__" data-cfemail="157c7b737a557078747c793b767a78">[email&#160;protected]</span></a><br /> 00 (123) 456 78 90
+              </div>
+              <!-- /.widget -->
+              <div class="widget mb-8">
+                <h4 class="widget-title text-white mb-3">Learn More</h4>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our Story</a></li>
+                  <li><a href="#">Terms of Use</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <!-- /.widget -->
+              <div class="widget">
+                <h4 class="widget-title text-white mb-3">Follow Us</h4>
+                <nav class="nav social social-white">
+                  <a href="#"><i class="uil uil-twitter"></i></a>
+                  <a href="#"><i class="uil uil-facebook-f"></i></a>
+                  <a href="#"><i class="uil uil-dribbble"></i></a>
+                  <a href="#"><i class="uil uil-instagram"></i></a>
+                  <a href="#"><i class="uil uil-youtube"></i></a>
+                </nav>
+                <!-- /.social -->
+              </div>
+              <!-- /.widget -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.offcanvas -->
+          <div class="offcanvas offcanvas-top bg-light" id="offcanvas-search" data-bs-scroll="true">
+            <div class="container d-flex flex-row py-6">
+              <form class="search-form w-100">
+                <input id="search-form" type="text" class="form-control" placeholder="Type keyword and hit enter">
+              </form>
+              <!-- /.search-form -->
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <!-- /.container -->
+          </div>
+          <!-- /.offcanvas -->
+        </header>
+        <!-- /header -->
+            <!-- /header -->
+        {% block content %}
+            
+        {% endblock content %}
+      </div>
+      <!-- /.content-wrapper -->
+      <footer class="bg-soft-primary">
+          <div class="container pt-10 mt-10 pt-md-12 pb-7">
+              <div class="row gy-6 gy-lg-0">
+                  <div class="col-lg-4">
+                      <div class="widget">
+                          <h3 class="h2 mb-3">{% trans 'Dawa Mkononi App is available in your favourite store' %}</h3>
+                          <p class="lead mb-3 fs-17">{% trans 'Download it now from your favourite store.' %}</p>
+                          <span><a href="https://play.google.com/store/apps/details?id=com.dawamkononi.buyers"
+                                  target="_blank" class="btn btn-secondary rounded-pill mb-2 mb-md-0"><i
+                                      class="uil uil-google-play"></i> Play
+                                  Store</a></span>
+                          <span><a href="https://apps.apple.com/tz/app/dawa-mkononi/id1625919956" target="_blank" class="btn btn-secondary rounded-pill mb-2 mb-md-0"><i class="uil uil-apple"></i> App
+                                  Store</a></span>
+                      </div>
+                  </div>
+  
+                  <div class="col-lg-4">
+            <div class="widget">
+              <h3 class="h2 mb-3">{% trans 'Are you in need of bulk supply of pharmaceuticals?' %}</h3>
+              <br>
+              <div class="dropdown">
+                <button class="btn btn-outline-primary rounded-pill me-1 dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  {% get_current_language as LANGUAGE_CODE %}
+                  {{ LANGUAGE_CODE|language_name }}
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                  {% get_available_languages as LANGUAGES %}
+                  {% get_language_info_list for LANGUAGES as languages %}
+                  {% for lang in languages %}
+                  <li>
+                    <a class="dropdown-item" href="/{{ lang.code }}/">
+                      {{ lang.name_local }}
+                    </a>
+                  </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+  
+                  <div class="col-md-4 col-lg-2">
+                      <div class="widget">
+                          <h3 class="widget-title mb-3"><i class="uil uil-notes"></i> Explore</h3>
+                          <ul class="list-unstyled mb-0 fs-17">
+  
+                              <li><a href="{% url 'contact' %}" class="link-body hover">Our Contacts</a></li>
+                              <li><a href="/privacy-policy/" class="link-body hover">Privacy Policy</a></li>
+                          </ul>
+                      </div>
+                  </div>
+  
+                  <div class="col-md-4 col-lg-2">
+                      <div class="widget">
+                          <h3 class="widget-title mb-3"><i class="uil uil-comment-share"></i> Socials</h3>
+                          <ul class="list-unstyled mb-0 fs-17">
+  
+                              <li><a href="https://www.linkedin.com/company/dawa-mkononi/" class="link-body" target="_blank"><i
+                                  class="uil uil-linkedin"></i>LinkedIn</a></li>
+                              <li><a href="https://twitter.com/DawaMkononi" class="link-body" target="_blank"><i
+                                          class="uil uil-twitter"></i> Twitter</a></li>
+                              <li><a href="https://www.instagram.com/dawamkononi" class="link-body" target="_blank"><i
+                                          class="uil uil-instagram"></i> Instagram</a></li>
+  
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+              <hr class="mt-5 mb-5" />
+              <div class="d-md-flex align-items-center justify-content-center text-center">
+                  <p class="mb-2 mb-lg-0">© <script>
+                          document.write(new Date().getFullYear());
+                      </script> DMRX Pharmacy<br />All Rights Reserved</p>
+              </div>
+          </div>
+      </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="{% static 'assets/js/plugins.js' %}"></script>
+  <script src="{% static 'assets/js/theme.js' %}"></script>
+</body>
+
+</html>

@@ -1,0 +1,407 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-11 00:24+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: pages/templates/about.html:11
+msgid "Dawa Mkononi"
+msgstr ""
+
+#: pages/templates/about.html:12 pages/templates/about.html:142
+#: pages/templates/home.html:12 pages/templates/home.html:291
+msgid "Improving Access to Medicines in Africa"
+msgstr "Verbesserung des Zugangs zu Medikamenten in Afrika"
+
+#: pages/templates/about.html:31
+msgid "Who We Are"
+msgstr "Wer wir sind"
+
+#: pages/templates/about.html:32
+msgid ""
+"Dawa Mkononi is focused on using innovation to improve the supply chain. "
+"Dawa Mkononi's operations mainly target pharmacies, health facilities, and "
+"other registered B2B clients. With its data-driven approaches, we have a "
+"mission of improving access to medicine distribution and making medicines "
+"more available to health facilities."
+msgstr ""
+"Dawa Mkononi konzentriert sich darauf, Innovationen zu nutzen, um die Lieferkette zu verbessern. "
+"Die Aktivitäten von Dawa Mkononi richten sich hauptsächlich an Apotheken, Gesundheitseinrichtungen und "
+"andere registrierte B2B-Kunden. Mit datenbasierten Ansätzen verfolgen wir die Mission, den Zugang "
+"zur Medikamentenverteilung zu verbessern und Medikamente für Gesundheitseinrichtungen verfügbarer zu machen."
+
+#: pages/templates/about.html:33
+msgid ""
+"Dawa Mkononi is a product of DMRX Inc., a United States of America-based "
+"Company. DMRX Inc. is the holding company of DMRX Company Limited, a company "
+"incorporated in Tanzania."
+msgstr ""
+"Dawa Mkononi ist ein Produkt von DMRX Inc., einem Unternehmen mit Sitz in den Vereinigten Staaten von Amerika. "
+"DMRX Inc. ist die Muttergesellschaft von DMRX Company Limited, einem Unternehmen, das in Tansania eingetragen ist."
+
+#: pages/templates/about.html:43
+msgid "Our Vision"
+msgstr "Unsere Vision"
+
+#: pages/templates/about.html:45
+msgid ""
+"To lead pharmaceutical innovation in Africa, making quality medicines more "
+"accessible to all."
+msgstr ""
+"Führend in der pharmazeutischen Innovation in Afrika zu sein und qualitativ hochwertige Medikamente für alle besser zugänglich zu machen."
+
+#: pages/templates/about.html:55
+msgid "Our Mission"
+msgstr "Unsere Mission"
+
+#: pages/templates/about.html:56
+msgid "To improve access and availability of medicines in African communities."
+msgstr "Den Zugang und die Verfügbarkeit von Medikamenten in afrikanischen Gemeinschaften zu verbessern."
+
+#: pages/templates/about.html:86 pages/templates/home.html:235
+msgid "Reduced Stockouts"
+msgstr "Weniger Lieferengpässe"
+
+#: pages/templates/about.html:87 pages/templates/home.html:236
+msgid ""
+"Health facilities now have consistent access to essential drugs, improving "
+"patient outcomesReduced Stockouts."
+msgstr ""
+"Gesundheitseinrichtungen haben nun konstanten Zugang zu wichtigen Medikamenten, was die Behandlungsergebnisse verbessert und Lieferengpässe reduziert."
+
+#: pages/templates/about.html:101 pages/templates/home.html:250
+msgid "Improved Cash Flow"
+msgstr "Verbesserter Cashflow"
+
+#: pages/templates/about.html:102 pages/templates/home.html:251
+msgid "Improved HFs economic state by cutting down costs"
+msgstr "Verbesserung des wirtschaftlichen Zustands von Gesundheitseinrichtungen durch Kostensenkung"
+
+#: pages/templates/about.html:116 pages/templates/home.html:265
+msgid "Fewer Counterfeits"
+msgstr "Weniger Fälschungen"
+
+#: pages/templates/about.html:117 pages/templates/home.html:266
+msgid ""
+"Our focus on authentic products has drastically lowered the circulation of "
+"counterfeit medications."
+msgstr ""
+"Unser Fokus auf authentische Produkte hat die Verbreitung gefälschter Medikamente drastisch reduziert."
+
+#: pages/templates/about.html:127 pages/templates/home.html:276
+msgid "Outcomes"
+msgstr "Ergebnisse"
+
+#: pages/templates/about.html:128 pages/templates/home.html:277
+msgid "Our innovations drive measurable impact"
+msgstr "Unsere Innovationen erzielen messbare Ergebnisse"
+
+#: pages/templates/about.html:129 pages/templates/home.html:278
+msgid ""
+"Dawa Mkononi revolutionizes medicine distribution, ensuring availability, "
+"boosting cash flow, cutting costs, and improving healthcare access."
+msgstr ""
+"Dawa Mkononi revolutioniert die Medikamentenverteilung, stellt Verfügbarkeit sicher, verbessert den Cashflow, senkt Kosten und verbessert den Zugang zur Gesundheitsversorgung."
+
+#: pages/templates/about.html:141 pages/templates/home.html:290
+msgid "Our Impact"
+msgstr "Unsere Wirkung"
+
+#: pages/templates/about.html:152 pages/templates/home.html:301
+msgid "Patients Served by 2024"
+msgstr "Patienten, die bis 2024 versorgt wurden"
+
+#: pages/templates/about.html:157 pages/templates/home.html:306
+msgid "Health Facilities Reached"
+msgstr "Erreichte Gesundheitseinrichtungen"
+
+#: pages/templates/about.html:162 pages/templates/home.html:311
+msgid "Credit Financing Provided"
+msgstr "Kreditfinanzierung bereitgestellt"
+
+#: pages/templates/about.html:183
+msgid "We are proud of our works"
+msgstr "Wir sind stolz auf unsere Arbeit"
+
+#: pages/templates/about.html:184
+msgid "Improving Access to Medicines in Africa."
+msgstr "Verbesserung des Zugangs zu Medikamenten in Afrika."
+
+#: pages/templates/about.html:192
+msgid "Active customers."
+msgstr "Aktive Kunden."
+
+#: pages/templates/about.html:198
+msgid "Average Order value"
+msgstr "Durchschnittlicher Bestellwert"
+
+#: pages/templates/about.html:204
+msgid "Sales Jan-Oct 2024"
+msgstr "Verkäufe Jan-Okt 2024"
+
+#: pages/templates/about.html:229 pages/templates/base.html:54
+#: pages/templates/base_contact.html:53 pages/templates/layout.html:53
+#: pages/templates/team.html:11 pages/templates/team.html:29
+msgid "Our Team"
+msgstr "Unser Team"
+
+#: pages/templates/about.html:230 pages/templates/team.html:30
+msgid "Dedicated to transforming healthcare"
+msgstr "Engagiert für die Transformation des Gesundheitswesens"
+
+#: pages/templates/base.html:11 pages/templates/base_contact.html:11
+#: pages/templates/layout.html:11
+msgid "Pharmaceuticals At Your Fingertips"
+msgstr "Pharmazeutika in Ihren Händen"
+
+#: pages/templates/base.html:52 pages/templates/base_contact.html:51
+#: pages/templates/layout.html:51
+msgid "About Us"
+msgstr "Über uns"
+
+#: pages/templates/base.html:56 pages/templates/base_contact.html:55
+#: pages/templates/layout.html:55
+msgid "Contact Us"
+msgstr "Kontaktieren Sie uns"
+
+#: pages/templates/base.html:170 pages/templates/base_contact.html:169
+#: pages/templates/layout.html:169
+msgid "Dawa Mkononi App is available in your favourite store"
+msgstr "Die Dawa Mkononi App ist in Ihrem bevorzugten Store verfügbar"
+
+#: pages/templates/base.html:171 pages/templates/base_contact.html:170
+#: pages/templates/layout.html:170
+msgid "Download it now from your favourite store."
+msgstr "Laden Sie sie jetzt aus Ihrem bevorzugten Store herunter."
+
+#: pages/templates/base.html:183 pages/templates/base_contact.html:182
+#: pages/templates/layout.html:182
+msgid "Are you in need of bulk supply of pharmaceuticals?"
+msgstr "Benötigen Sie Großlieferungen von Pharmazeutika?"
+
+#: pages/templates/contact.html:10
+msgid "Our Contacts"
+msgstr "Unsere Kontakte"
+
+#: pages/templates/contact.html:39
+msgid "Pharmacy Name"
+msgstr "Apothekenname"
+
+#: pages/templates/contact.html:56
+msgid "Pharmacist Name"
+msgstr "Name des Apothekers"
+
+#: pages/templates/contact.html:58
+msgid "Superintedent Pharmacist"
+msgstr "Leitender Apotheker"
+
+#: pages/templates/contact.html:73
+msgid "Time Of Operation"
+msgstr "Betriebszeiten"
+
+#: pages/templates/contact.html:106
+msgid "HEAD OFFICE"
+msgstr "HAUPTSITZ"
+
+#: pages/templates/contact.html:123
+msgid "BRANCH OFFICE"
+msgstr "NIEDERLASSUNG"
+
+#: pages/templates/contact.html:143
+msgid "Phone"
+msgstr "Telefon"
+
+#: pages/templates/home.html:45
+msgid "DID YOU KNOW?"
+msgstr "WUSSTEN SIE SCHON?"
+
+#: pages/templates/home.html:46
+msgid ""
+"Health facilities struggle with working capital, causing stockouts and "
+"compromising care"
+msgstr ""
+"Gesundheitseinrichtungen kämpfen mit Betriebskapital, was zu Lieferengpässen führt und die Versorgung beeinträchtigt."
+
+#: pages/templates/home.html:49
+msgid "Health facilities face stock outs on essential drugs"
+msgstr "Gesundheitseinrichtungen haben Engpässe bei wichtigen Medikamenten"
+
+#: pages/templates/home.html:53
+msgid "Loans given to HCF, in Tanzania"
+msgstr "Kredite an HCF in Tansania vergeben"
+
+#: pages/templates/home.html:75
+msgid "Our Approach to Improving Healthcare Supply Chains"
+msgstr "Unser Ansatz zur Verbesserung der Versorgungsketten im Gesundheitswesen"
+
+#: pages/templates/home.html:81
+msgid "Credit Financing"
+msgstr "Kreditfinanzierung"
+
+#: pages/templates/home.html:82
+msgid "Helping healthcare providers manage cash flow efficiently."
+msgstr "Unterstützung von Gesundheitsdienstleistern bei der effizienten Verwaltung ihres Cashflows."
+
+#: pages/templates/home.html:91
+msgid "Extensive Product Range"
+msgstr "Umfangreiches Produktsortiment"
+
+#: pages/templates/home.html:92
+msgid "Access to high-quality, authentic medications."
+msgstr "Zugang zu hochwertigen, authentischen Medikamenten."
+
+#: pages/templates/home.html:100
+msgid "Data-Driven Ordering"
+msgstr "Datenbasierte Bestellung"
+
+#: pages/templates/home.html:101
+msgid "Simplifying procurement with intelligent insights."
+msgstr "Vereinfachung der Beschaffung durch intelligente Einblicke."
+
+#: pages/templates/home.html:109
+msgid "On-time Delivery"
+msgstr "Pünktliche Lieferung"
+
+#: pages/templates/home.html:110
+msgid "Timely distribution to avoid stockouts."
+msgstr "Rechtzeitige Verteilung, um Lieferengpässe zu vermeiden."
+
+#: pages/templates/home.html:118
+msgid "Authentic Products"
+msgstr "Authentische Produkte"
+
+#: pages/templates/home.html:119
+msgid "Reducing the risk of counterfeit medicines."
+msgstr "Verringerung des Risikos gefälschter Medikamente."
+
+#: pages/templates/home.html:154
+msgid "Gross Margin:"
+msgstr "Bruttomarge:"
+
+#: pages/templates/home.html:155
+msgid "Warehouse Partership"
+msgstr "Lagerhaus-Partnerschaft"
+
+#: pages/templates/home.html:165
+msgid "Gross Margin: In house inventory"
+msgstr "Bruttomarge: Eigenlagerbestand"
+
+#: pages/templates/home.html:175
+msgid "How We Operate?"
+msgstr "Wie wir arbeiten"
+
+#: pages/templates/home.html:182
+msgid "Manufacturing & Importers"
+msgstr "Herstellung & Importeure"
+
+#: pages/templates/home.html:183
+msgid "We source quality products directly from manufacturers and importers."
+msgstr "Wir beziehen Qualitätsprodukte direkt von Herstellern und Importeuren."
+
+#: pages/templates/home.html:191
+msgid "Fulfillment, Data Processing & Credit Scoring"
+msgstr "Erfüllung, Datenverarbeitung & Kreditbewertung"
+
+#: pages/templates/home.html:192
+msgid ""
+"We manage orders, process data, and provide credit scoring for retailer "
+"financing."
+msgstr ""
+"Wir verwalten Bestellungen, verarbeiten Daten und bieten Kreditbewertungen für die Finanzierung von Einzelhändlern an."
+
+#: pages/templates/home.html:200
+msgid "Stock Financing"
+msgstr "Lagerfinanzierung"
+
+#: pages/templates/home.html:201
+msgid "We offer flexible financing options to help retailers maintain stock."
+msgstr "Wir bieten flexible Finanzierungsoptionen, um Einzelhändlern zu helfen, ihren Lagerbestand zu halten."
+
+#: pages/templates/home.html:209
+msgid "Retailer Distribution"
+msgstr "Einzelhändler-Verteilung"
+
+#: pages/templates/home.html:210
+msgid ""
+"We distribute products to pharmacies, hospitals, clinics, and other "
+"healthcare facilities."
+msgstr ""
+"Wir verteilen Produkte an Apotheken, Krankenhäuser, Kliniken und andere Gesundheitseinrichtungen."
+
+#: pages/templates/home.html:332
+msgid "Our Dawa Mkononi app empowers healthcare providers"
+msgstr "Unsere Dawa Mkononi App stärkt Gesundheitsdienstleister"
+
+#: pages/templates/home.html:348
+msgid "Stock List"
+msgstr "Bestandsliste"
+
+#: pages/templates/home.html:349
+msgid ""
+"Digitize your stock process,by having a virtual paper for your convenience"
+msgstr ""
+"Digitalisieren Sie Ihren Lagerprozess, indem Sie ein virtuelles Dokument für Ihren Komfort verwenden."
+
+#: pages/templates/home.html:357
+msgid "Reorder"
+msgstr "Nachbestellung"
+
+#: pages/templates/home.html:358
+msgid "Hustle free reordering of medications from your previous orders"
+msgstr "Stressfreie Nachbestellung von Medikamenten aus Ihren früheren Bestellungen"
+
+#: pages/templates/home.html:366
+msgid "Payment"
+msgstr "Bezahlung"
+
+#: pages/templates/home.html:367
+msgid "Pay instantly and securely using Selcom Pay during checkout"
+msgstr "Bezahlen Sie sofort und sicher mit Selcom Pay beim Checkout"
+
+#: pages/templates/home.html:375
+msgid "Delivery"
+msgstr "Lieferung"
+
+#: pages/templates/home.html:376
+msgid "We provide fast and reliable deliveries to your facility"
+msgstr "Wir bieten schnelle und zuverlässige Lieferungen an Ihre Einrichtung"
+
+#: pages/templates/home.html:384
+msgid "Orders"
+msgstr "Bestellungen"
+
+#: pages/templates/home.html:385
+msgid "Review your previous orders to help you manage your stock well"
+msgstr "Überprüfen Sie Ihre früheren Bestellungen, um Ihren Bestand gut zu verwalten"
+
+#: pages/templates/home.html:393
+msgid "Categories"
+msgstr "Kategorien"
+
+#: pages/templates/home.html:394
+msgid "Browse through different categories to easily find the medications."
+msgstr "Durchsuchen Sie verschiedene Kategorien, um die Medikamente leicht zu finden."
+
+#: pages/templates/home.html:411 pages/templates/team.html:134
+msgid "Trusted by over 2K+ clients across Africa"
+msgstr "Vertrauen von über 2.000 Kunden in ganz Afrika"
+
+#: pages/templates/team.html:12
+msgid ""
+"At the heart of our mission to transform healthcare access is a team of "
+"passionate and experienced professionals."
+msgstr ""
+"Im Mittelpunkt unserer Mission, den Zugang zur Gesundheitsversorgung zu transformieren, steht ein Team leidenschaftlicher und erfahrener Fachleute."

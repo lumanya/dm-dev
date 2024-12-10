@@ -1,0 +1,161 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}  
+
+<section class="wrapper bg-gray">
+    <div class="container pt-10 pt-md-14 text-center">
+      <div class="row">
+        <div class="col-xl-6 mx-auto" data-cues="slideInDown" ata-delay="600">
+          <h1 class="fs-20 mb-4 text-primary">{% trans 'Our Team' %}</h1>
+          <p class="lead fs-lg mb-0">{% trans 'At the heart of our mission to transform healthcare access is a team of passionate and experienced professionals.' %}</p>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img src="{% static 'assets/img/photos/bg12.jpg' %}" alt="" /></figure>
+  </section>
+  <!-- /section -->
+   <!-- /section -->
+
+
+  <section class="wrapper bg-light">
+    <div class="container py-8 py-md-8 ">
+      <div class="row mb-3">
+        <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
+          <h2 class="fs-15 text-uppercase text-primary mb-3">{% trans 'Our Team' %}</h2>
+          <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{% trans 'Dedicated to transforming healthcare' %}</h3>
+        </div>
+        <!--/column -->
+      </div>
+      <!--/.row -->
+      <div class="position-relative">
+        
+        <div class="swiper-container dots-closer mb-6" data-margin="15" data-dots="true" data-items-xxl="4" data-items-lg="3" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="item-inner">
+                  <div class="position-relative text-center">
+                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                    <div class="card">
+                      <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te1.png' %}" alt="" /></figure>
+                      <div class="card-body px-6 py-5">
+                        <h4 class="mb-1">Joseph Paul</h4>
+                        <p class="mb-0">CEO</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /div -->
+                </div>
+                <!-- /.item-inner -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="item-inner">
+                  <div class="position-relative text-center">
+                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                    <div class="card">
+                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te2.png" alt="" /></figure>
+                      <div class="card-body px-6 py-5">
+                        <h4 class="mb-1">Clemence Exaudi</h4>
+                        <p class="mb-0">COO</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /div -->
+                </div>
+                <!-- /.item-inner -->
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <div class="item-inner">
+                  <div class="position-relative text-center">
+                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                    <div class="card">
+                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te3.png"  alt="" /></figure>
+                      <div class="card-body px-6 py-5">
+                        <h4 class="mb-1">Asorael Ayo</h4>
+                        <p class="mb-0">CTO</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /div -->
+                </div>
+                <!-- /.item-inner -->
+              </div>
+              <!--/.swiper-slide -->
+            
+              <div class="swiper-slide">
+                <div class="item-inner">
+                  <div class="position-relative text-center">
+                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
+                    <div class="card">
+                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te4.png"  alt="" /></figure>
+                      <div class="card-body px-6 py-5">
+                        <h4 class="mb-1">Shamsa Ibrahim</h4>
+                        <p class="mb-0">CFO</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!-- /.card -->
+                  </div>
+                  <!-- /div -->
+                </div>
+                <!-- /.item-inner -->
+              </div>
+              <!--/.swiper-slide -->              
+             
+            
+            </div>
+            <!--/.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+      </div>
+      <!-- /.position-relative -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+  <section class="wrapper bg-light">
+    <div class="container py-14 py-md-16">
+      <p class="text-center mb-8">{% trans "Trusted by over 2K+ clients across Africa" %}</p>
+      <div class="swiper-container clients mb-0" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-xs="2">
+        <div class="swiper">
+          <div class="swiper-wrapper ticker">
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c1.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c2.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c3.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c4.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c5.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c6.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c7.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c8.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c9.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c10.png' %}" alt="" /></div>
+            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c11.png' %}" alt="" /></div>
+          </div>
+          <!--/.swiper-wrapper -->
+        </div>
+        <!-- /.swiper -->
+      </div>
+      <!-- /.swiper-container -->
+    </div>
+    <!-- /.container -->
+  </section>
+ 
+
+
+{% endblock content %}
