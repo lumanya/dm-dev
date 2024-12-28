@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-12-11 00:43+0300\n"
+"POT-Creation-Date: 2024-12-28 21:45+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,21 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-#: pages/templates/about.html:11
-msgid "Dawa Mkononi"
-msgstr ""
-
-#: pages/templates/about.html:12 pages/templates/about.html:142
-#: pages/templates/home.html:12 pages/templates/home.html:291
-msgid "Improving Access to Medicines in Africa"
-msgstr "Kuboresha Upatikanaji wa Dawa Barani Afrika"
-
-#: pages/templates/about.html:31
+#: pages/templates/about.html:41
 msgid "Who We Are"
 msgstr "Sisi ni Nani"
 
-#: pages/templates/about.html:32
+#: pages/templates/about.html:42
 msgid ""
 "Dawa Mkononi is focused on using innovation to improve the supply chain. "
 "Dawa Mkononi's operations mainly target pharmacies, health facilities, and "
@@ -39,389 +29,289 @@ msgid ""
 "mission of improving access to medicine distribution and making medicines "
 "more available to health facilities."
 msgstr ""
-"Dawa Mkononi inalenga kutumia ubunifu kuboresha mnyororo wa usambazaji. "
-"Shughuli za Dawa Mkononi zinalenga zaidi maduka ya dawa, vituo vya afya, na "
-"wateja wengine waliosajiliwa wa B2B. Kwa mbinu zake zinazoongozwa na data, "
-"tuna lengo la kuboresha usambazaji wa dawa na kuzifanya zipatikane zaidi kwa "
-"vituo vya afya."
+"Dawa Mkononi inalenga kutumia uvumbuzi kuboresha mnyororo wa usambazaji. "
+"Shughuli za Dawa Mkononi zinalenga hasa maduka ya dawa, vituo vya afya, na "
+"wateja wengine waliosajiliwa wa B2B. Kwa mbinu zake zinazotegemea data, tuna "
+"dhamira ya kuboresha upatikanaji wa usambazaji wa dawa na kuzifanya dawa zipatikane "
+"kwa urahisi zaidi kwenye vituo vya afya."
 
-#: pages/templates/about.html:33
+#: pages/templates/about.html:43
 msgid ""
 "Dawa Mkononi is a product of DMRX Inc., a United States of America-based "
 "Company. DMRX Inc. is the holding company of DMRX Company Limited, a company "
 "incorporated in Tanzania."
 msgstr ""
-"Dawa Mkononi ni bidhaa ya DMRX Inc., Kampuni inayotegemea Marekani. DMRX "
-"Inc. ni kampuni mama ya DMRX Company Limited, kampuni iliyosajiliwa Tanzania."
+"Dawa Mkononi ni bidhaa ya DMRX Inc., kampuni yenye makao yake Marekani. "
+"DMRX Inc. ni kampuni mama ya DMRX Company Limited, kampuni iliyosajiliwa Tanzania."
 
-#: pages/templates/about.html:43
+#: pages/templates/about.html:64
 msgid "Our Vision"
 msgstr "Maono Yetu"
 
-#: pages/templates/about.html:45
+#: pages/templates/about.html:65
 msgid ""
 "To lead pharmaceutical innovation in Africa, making quality medicines more "
 "accessible to all."
 msgstr ""
-"Kuongoza katika ubunifu wa dawa barani Afrika, na kufanya dawa bora "
-"zipatikane kwa wote."
+"Kuongoza uvumbuzi wa dawa barani Afrika, na kufanya dawa bora zipatikane kwa wote."
 
-#: pages/templates/about.html:55
+#: pages/templates/about.html:76
 msgid "Our Mission"
 msgstr "Dhamira Yetu"
 
-#: pages/templates/about.html:56
+#: pages/templates/about.html:77
 msgid "To improve access and availability of medicines in African communities."
-msgstr "Kuboresha upatikanaji na upatikanaji wa dawa katika jamii za Kiafrika."
+msgstr "Kuboresha upatikanaji na uwepo wa dawa katika jamii za Afrika."
 
-#: pages/templates/about.html:86 pages/templates/home.html:235
+#: pages/templates/about.html:96 pages/templates/home1.html:177
+#: pages/templates/home1.html:233 pages/templates/home1.html:305
+msgid "Our Impact"
+msgstr "Athari Yetu"
+
+#: pages/templates/about.html:97 pages/templates/home1.html:19
+#: pages/templates/home1.html:306
+msgid "Improving Access to Medicines in Africa"
+msgstr "Kuboresha Upatikanaji wa Dawa Afrika"
+
+#: pages/templates/about.html:107
+msgid "Patients Served by 2024"
+msgstr "Wagonjwa Waliotumikiwa kufikia 2024"
+
+#: pages/templates/about.html:112
+msgid "Health Facilities Reached"
+msgstr "Vituo vya Afya Vilivyofikiwa"
+
+#: pages/templates/about.html:117 pages/templates/home1.html:326
+msgid "Credit Financing Provided"
+msgstr "Mikopo ya Fedha Iliyotolewa"
+
+#: pages/templates/contact.html:49
+msgid "Pharmacy Name"
+msgstr "Jina la Duka la Dawa"
+
+#: pages/templates/contact.html:66
+msgid "Pharmacist Name"
+msgstr "Jina la Mfamasia"
+
+#: pages/templates/contact.html:68
+msgid "Superintedent Pharmacist"
+msgstr "Mfamasia Mkuu"
+
+#: pages/templates/contact.html:83
+msgid "Time Of Operation"
+msgstr "Muda wa Kazi"
+
+#: pages/templates/contact.html:116
+msgid "HEAD OFFICE"
+msgstr "MAKAO MAKUU"
+
+#: pages/templates/contact.html:133
+msgid "BRANCH OFFICE"
+msgstr "OFISI YA TAWI"
+
+#: pages/templates/contact.html:153
+msgid "Phone"
+msgstr "Simu"
+
+#: pages/templates/home1.html:40 pages/templates/team.html:154
+msgid "Our Valued Investors"
+msgstr "Wawekezaji Wetu Wenye Thamani"
+
+#: pages/templates/home1.html:77
+msgid "Our Approach to Improving Healthcare Supply Chains"
+msgstr "Njia Yetu ya Kuboresha Minyororo ya Usambazaji wa Huduma za Afya"
+
+#: pages/templates/home1.html:83
+msgid "Credit Financing"
+msgstr "Mikopo ya Fedha"
+
+#: pages/templates/home1.html:84
+msgid "Helping healthcare providers manage cash flow efficiently."
+msgstr "Kuwasaidia watoa huduma za afya kusimamia mtiririko wa fedha kwa ufanisi."
+
+#: pages/templates/home1.html:93
+msgid "Extensive Product Range"
+msgstr "Aina Nyingi za Bidhaa"
+
+#: pages/templates/home1.html:94
+msgid "Access to high-quality, authentic medications."
+msgstr "Upatikanaji wa dawa za hali ya juu na za asili."
+
+#: pages/templates/home1.html:102
+msgid "Data-Driven Ordering"
+msgstr "Maagizo Yaliyoongozwa na Data"
+
+#: pages/templates/home1.html:103
+msgid "Simplifying procurement with intelligent insights."
+msgstr "Kurahisisha ununuzi kwa maarifa ya kiakili."
+
+#: pages/templates/home1.html:111
+msgid "On-time Delivery"
+msgstr "Usafirishaji wa Wakati"
+
+#: pages/templates/home1.html:112
+msgid "Timely distribution to avoid stockouts."
+msgstr "Usambazaji wa wakati ili kuepuka ukosefu wa bidhaa."
+
+#: pages/templates/home1.html:120
+msgid "Authentic Products"
+msgstr "Bidhaa Halisi"
+
+#: pages/templates/home1.html:121
+msgid "Reducing the risk of counterfeit medicines."
+msgstr "Kupunguza hatari ya dawa bandia."
+
+#: pages/templates/home1.html:158
 msgid "Reduced Stockouts"
-msgstr "Kupungua kwa Ukosefu wa Dawa"
+msgstr "Upunguzaji wa Ukosefu wa Bidhaa"
 
-#: pages/templates/about.html:87 pages/templates/home.html:236
-#, fuzzy
-#| msgid ""
-#| "Health facilities now have consistent access to essential drugs, "
-#| "improving patient outcomes."
+#: pages/templates/home1.html:161
 msgid ""
-"Health facilities now have consistent access to essential drugs, improving "
-"patient outcomesReduced Stockouts."
+"Through Data-driven Innovation, Health facilities now have consistent access "
+"to essential drugs."
 msgstr ""
-"Vituo vya afya sasa vina upatikanaji wa mara kwa mara wa dawa muhimu, "
-"kuboresha matokeo ya wagonjwa."
+"Kupitia uvumbuzi unaotegemea data, vituo vya afya sasa vina upatikanaji wa mara kwa mara wa dawa muhimu."
 
-#: pages/templates/about.html:101 pages/templates/home.html:250
-msgid "Improved Cash Flow"
-msgstr "Mtiririko wa Fedha Ulioboreshwa"
+#: pages/templates/home1.html:178
+msgid "Improve cashflows"
+msgstr "Boresha mtiririko wa fedha"
 
-#: pages/templates/about.html:102 pages/templates/home.html:251
-msgid "Improved HFs economic state by cutting down costs"
-msgstr "Kuboresha hali ya kifedha ya vituo vya afya kwa kupunguza gharama"
+#: pages/templates/home1.html:181
+msgid ""
+"Optimize resources, reduce waste, and keep your business thriving with Dawa "
+"Mkononi."
+msgstr ""
+"Fanikisha matumizi ya rasilimali, punguza upotevu, na endelea kufanikisha biashara yako na Dawa Mkononi."
 
-#: pages/templates/about.html:116 pages/templates/home.html:265
-msgid "Fewer Counterfeits"
-msgstr "Kupungua kwa Dawa Bandia"
+#: pages/templates/home1.html:197
+msgid "Credit Finance"
+msgstr "Fedha za Mikopo"
 
-#: pages/templates/about.html:117 pages/templates/home.html:266
+#: pages/templates/home1.html:234
+msgid "Reduced Counterfeits Medicines"
+msgstr "Dawa Bandia Zilizopunguzwa"
+
+#: pages/templates/home1.html:237
 msgid ""
 "Our focus on authentic products has drastically lowered the circulation of "
 "counterfeit medications."
 msgstr ""
-"Mtazamo wetu kwa bidhaa halisi umepunguza kwa kiasi kikubwa usambazaji wa "
-"dawa bandia."
+"Mtazamo wetu kwenye bidhaa halisi umepunguza kwa kiasi kikubwa mzunguko wa dawa bandia."
 
-#: pages/templates/about.html:127 pages/templates/home.html:276
-msgid "Outcomes"
-msgstr "Matokeo"
+#: pages/templates/home1.html:256
+msgid "Making a Difference"
+msgstr "Kuleta Tofauti"
 
-#: pages/templates/about.html:128 pages/templates/home.html:277
-msgid "Our innovations drive measurable impact"
-msgstr "Ubunifu wetu unaleta athari zinazoweza kupimika"
-
-#: pages/templates/about.html:129 pages/templates/home.html:278
-msgid ""
-"Dawa Mkononi revolutionizes medicine distribution, ensuring availability, "
-"boosting cash flow, cutting costs, and improving healthcare access."
-msgstr ""
-"Dawa Mkononi inaleta mapinduzi katika usambazaji wa dawa, kuhakikisha "
-"upatikanaji, kuimarisha mtiririko wa fedha, kupunguza gharama, na kuboresha "
-"upatikanaji wa huduma za afya."
-
-#: pages/templates/about.html:141 pages/templates/home.html:290
-msgid "Our Impact"
-msgstr "Athari Zetu"
-
-#: pages/templates/about.html:152 pages/templates/home.html:301
-msgid "Patients Served by 2024"
-msgstr "Wagonjwa Waliohudumiwa Kufikia 2024"
-
-#: pages/templates/about.html:157 pages/templates/home.html:306
-msgid "Health Facilities Reached"
-msgstr "Vituo vya Afya Vilivyofikiwa"
-
-#: pages/templates/about.html:162 pages/templates/home.html:311
-msgid "Credit Financing Provided"
-msgstr "Fedha za Mikopo Zilizotolewa"
-
-#: pages/templates/about.html:183
-msgid "We are proud of our works"
-msgstr "Tunajivunia kazi zetu"
-
-#: pages/templates/about.html:184
+#: pages/templates/home1.html:257
 msgid "Improving Access to Medicines in Africa."
-msgstr "Kuboresha Upatikanaji wa Dawa Barani Afrika."
+msgstr "Kuboresha Upatikanaji wa Dawa Afrika."
 
-#: pages/templates/about.html:192
+#: pages/templates/home1.html:265
 msgid "Active customers."
-msgstr "Wateja Hai."
+msgstr "Wateja hai."
 
-#: pages/templates/about.html:198
+#: pages/templates/home1.html:271
 msgid "Average Order value"
 msgstr "Thamani ya Kawaida ya Agizo"
 
-#: pages/templates/about.html:204
-msgid "Sales Jan-Oct 2024"
-msgstr "Mauzo Jan-Okt 2024"
+#: pages/templates/home1.html:277
+msgid "Total Sales"
+msgstr "Jumla ya Mauzo"
 
-#: pages/templates/about.html:229 pages/templates/base.html:54
-#: pages/templates/base_contact.html:53 pages/templates/layout.html:53
-#: pages/templates/team.html:11 pages/templates/team.html:29
-msgid "Our Team"
-msgstr "Timu Yetu"
+#: pages/templates/home1.html:316
+msgid "Patients Served"
+msgstr "Wagonjwa Walihudumiwa"
 
-#: pages/templates/about.html:230 pages/templates/team.html:30
-msgid "Dedicated to transforming healthcare"
-msgstr "Tumejitolea kubadilisha huduma za afya"
+#: pages/templates/home1.html:321
+msgid "Pharmacies Reached"
+msgstr "Maduka ya Dawa Yaliyofikiwa"
 
-#: pages/templates/base.html:11 pages/templates/base_contact.html:11
+#: pages/templates/home1.html:347
+msgid "Our Dawa Mkononi app empowers healthcare providers"
+msgstr "Programu yetu ya Dawa Mkononi inawawezesha watoa huduma za afya"
+
+#: pages/templates/home1.html:363
+msgid "Stock List"
+msgstr "Orodha ya Bidhaa"
+
+#: pages/templates/home1.html:364
+msgid ""
+"Digitize your stock process,by having a virtual paper for your convenience"
+msgstr ""
+"Digitalisha mchakato wako wa hisa kwa kuwa na karatasi ya kidijitali kwa urahisi wako."
+
+#: pages/templates/home1.html:372
+msgid "Reorder"
+msgstr "Agiza Tena"
+
+#: pages/templates/home1.html:373
+msgid "Hustle free reordering of medications from your previous orders"
+msgstr "Agiza tena dawa kutoka kwenye maagizo yako ya awali bila shida"
+
+#: pages/templates/home1.html:381
+msgid "Payment"
+msgstr "Malipo"
+
+#: pages/templates/home1.html:382
+msgid "Pay instantly and securely using Selcom Pay during checkout"
+msgstr "Lipa papo hapo na kwa usalama ukitumia Selcom Pay wakati wa kulipia"
+
+#: pages/templates/home1.html:390
+msgid "Delivery"
+msgstr "Usafirishaji"
+
+#: pages/templates/home1.html:391
+msgid "We provide fast and reliable deliveries to your facility"
+msgstr "Tunatoa usafirishaji wa haraka na wa kuaminika kwa kituo chako"
+
+#: pages/templates/home1.html:399
+msgid "Orders"
+msgstr "Maagizo"
+
+#: pages/templates/home1.html:400
+msgid "Review your previous orders to help you manage your stock well"
+msgstr "Pitia maagizo yako ya awali ili kukusaidia kusimamia hisa zako vizuri."
+
+#: pages/templates/home1.html:408
+msgid "Categories"
+msgstr "Jamii"
+
+#: pages/templates/home1.html:409
+msgid "Browse through different categories to easily find the medications."
+msgstr "Pitia kategoria tofauti ili kupata dawa kwa urahisi."
+
+#: pages/templates/home1.html:426
+msgid "Empowered Through Grants and Support"
+msgstr "Kuwezeshwa Kupitia Ruzuku na Msaada"
+
 #: pages/templates/layout.html:11
 msgid "Pharmaceuticals At Your Fingertips"
-msgstr "Dawa Zinazopatikana kwa Urahisi"
+msgstr "Dawa Katika Vidole Vyako"
 
-#: pages/templates/base.html:52 pages/templates/base_contact.html:51
 #: pages/templates/layout.html:51
 msgid "About Us"
 msgstr "Kuhusu Sisi"
 
-#: pages/templates/base.html:56 pages/templates/base_contact.html:55
+#: pages/templates/layout.html:53
+msgid "Our Team"
+msgstr "Timu Yetu"
+
 #: pages/templates/layout.html:55
 msgid "Contact Us"
 msgstr "Wasiliana Nasi"
 
-#: pages/templates/base.html:170 pages/templates/base_contact.html:169
 #: pages/templates/layout.html:169
 msgid "Dawa Mkononi App is available in your favourite store"
-msgstr "App ya Dawa Mkononi inapatikana kwenye duka unalopenda"
+msgstr "Programu ya Dawa Mkononi inapatikana katika duka lako unalopendelea"
 
-#: pages/templates/base.html:171 pages/templates/base_contact.html:170
-#: pages/templates/layout.html:170
-msgid "Download it now from your favourite store."
-msgstr "Pakua sasa kutoka kwenye duka unalopenda."
-
-#: pages/templates/base.html:183 pages/templates/base_contact.html:182
 #: pages/templates/layout.html:182
-msgid "Are you in need of bulk supply of pharmaceuticals?"
-msgstr "Unahitaji usambazaji wa dawa kwa wingi?"
+msgid "Transforming Health System through Data-driven Innovation"
+msgstr "Kubadilisha Mfumo wa Afya kupitia Uvumbuzi Unaotegemea Data"
 
-#: pages/templates/contact.html:10
-msgid "Our Contacts"
-msgstr "Mawasiliano Yetu"
+#: pages/templates/team.html:37
+msgid "Board of Directors"
+msgstr "Bodi ya Wakurugenzi"
 
-#: pages/templates/contact.html:39
-msgid "Pharmacy Name"
-msgstr "Jina la Duka la Dawa"
-
-#: pages/templates/contact.html:56
-msgid "Pharmacist Name"
-msgstr "Jina la Mfamasia"
-
-#: pages/templates/contact.html:58
-msgid "Superintedent Pharmacist"
-msgstr "Mfamasia Mkuu"
-
-#: pages/templates/contact.html:73
-msgid "Time Of Operation"
-msgstr "Saa za Kazi"
-
-#: pages/templates/contact.html:106
-msgid "HEAD OFFICE"
-msgstr "MAKAO MAKUU"
-
-#: pages/templates/contact.html:123
-msgid "BRANCH OFFICE"
-msgstr "OFISI YA TAWI"
-
-#: pages/templates/contact.html:143
-msgid "Phone"
-msgstr "Simu"
-
-#: pages/templates/home.html:45
-msgid "DID YOU KNOW?"
-msgstr "JE, WAJUA?"
-
-#: pages/templates/home.html:46
-msgid ""
-"Health facilities struggle with working capital, causing stockouts and "
-"compromising care"
-msgstr ""
-"Vituo vya afya vinakumbwa na changamoto za mtaji wa kazi, hali "
-"inayosababisha ukosefu wa dawa na kuathiri huduma."
-
-#: pages/templates/home.html:49
-msgid "Health facilities face stock outs on essential drugs"
-msgstr "Vituo vya afya vinakumbwa na ukosefu wa dawa muhimu"
-
-#: pages/templates/home.html:53
-msgid "Loans given to HCF, in Tanzania"
-msgstr "Mikopo iliyotolewa kwa Vituo vya Huduma za Afya nchini Tanzania"
-
-#: pages/templates/home.html:75
-msgid "Our Approach to Improving Healthcare Supply Chains"
-msgstr "Mbinu Yetu ya Kuboresha Minyororo ya Usambazaji wa Huduma za Afya"
-
-#: pages/templates/home.html:81
-msgid "Credit Financing"
-msgstr "Ufadhili wa Mikopo"
-
-#: pages/templates/home.html:82
-msgid "Helping healthcare providers manage cash flow efficiently."
-msgstr ""
-"Kusaidia watoa huduma za afya kusimamia mtiririko wa fedha kwa ufanisi."
-
-#: pages/templates/home.html:91
-msgid "Extensive Product Range"
-msgstr "Aina Nyingi za Bidhaa"
-
-#: pages/templates/home.html:92
-msgid "Access to high-quality, authentic medications."
-msgstr "Upatikanaji wa dawa bora na halisi."
-
-#: pages/templates/home.html:100
-msgid "Data-Driven Ordering"
-msgstr "Kuagiza Kunakotegemea Takwimu"
-
-#: pages/templates/home.html:101
-msgid "Simplifying procurement with intelligent insights."
-msgstr "Kurahisisha ununuzi kwa maarifa mahiri."
-
-#: pages/templates/home.html:109
-msgid "On-time Delivery"
-msgstr "Uwasilishaji Kwa Wakati"
-
-#: pages/templates/home.html:110
-msgid "Timely distribution to avoid stockouts."
-msgstr "Usambazaji kwa wakati ili kuepuka ukosefu wa bidhaa."
-
-#: pages/templates/home.html:118
-msgid "Authentic Products"
-msgstr "Bidhaa Halisi"
-
-#: pages/templates/home.html:119
-msgid "Reducing the risk of counterfeit medicines."
-msgstr "Kupunguza hatari ya dawa bandia."
-
-#: pages/templates/home.html:154
-msgid "Gross Margin:"
-msgstr "Pato la Jumla:"
-
-#: pages/templates/home.html:155
-msgid "Warehouse Partership"
-msgstr "Ushirikiano wa Maghala"
-
-#: pages/templates/home.html:165
-msgid "Gross Margin: In house inventory"
-msgstr "Pato la Jumla: Bidhaa za Ghala la Ndani"
-
-#: pages/templates/home.html:175
-msgid "How We Operate?"
-msgstr "Tunavyofanya Kazi?"
-
-#: pages/templates/home.html:182
-msgid "Manufacturing & Importers"
-msgstr "Utengenezaji na Waagizaji"
-
-#: pages/templates/home.html:183
-msgid "We source quality products directly from manufacturers and importers."
-msgstr ""
-"Tunapata bidhaa bora moja kwa moja kutoka kwa wazalishaji na waagizaji."
-
-#: pages/templates/home.html:191
-msgid "Fulfillment, Data Processing & Credit Scoring"
-msgstr "Utimilifu, Uchakataji wa Takwimu na Upimaji wa Mikopo"
-
-#: pages/templates/home.html:192
-msgid ""
-"We manage orders, process data, and provide credit scoring for retailer "
-"financing."
-msgstr ""
-"Tunasimamia maagizo, kuchakata data, na kutoa upimaji wa mikopo kwa ajili ya "
-"ufadhili wa wauzaji."
-
-#: pages/templates/home.html:200
-msgid "Stock Financing"
-msgstr "Ufadhili wa Bidhaa"
-
-#: pages/templates/home.html:201
-msgid "We offer flexible financing options to help retailers maintain stock."
-msgstr ""
-"Tunatoa chaguo za ufadhili zinazobadilika kusaidia wauzaji kudumisha bidhaa."
-
-#: pages/templates/home.html:209
-msgid "Retailer Distribution"
-msgstr "Usambazaji kwa Wauzaji"
-
-#: pages/templates/home.html:210
-msgid ""
-"We distribute products to pharmacies, hospitals, clinics, and other "
-"healthcare facilities."
-msgstr ""
-"Tunasambaza bidhaa kwa maduka ya dawa, hospitali, kliniki, na vituo vingine "
-"vya huduma za afya."
-
-#: pages/templates/home.html:332
-msgid "Our Dawa Mkononi app empowers healthcare providers"
-msgstr "App yetu ya Dawa Mkononi inawawezesha watoa huduma za afya"
-
-#: pages/templates/home.html:348
-msgid "Stock List"
-msgstr "Orodha ya Bidhaa"
-
-#: pages/templates/home.html:349
-msgid ""
-"Digitize your stock process,by having a virtual paper for your convenience"
-msgstr ""
-"Kidigitali mchakato wako wa bidhaa, kwa kuwa na karatasi ya mtandaoni kwa "
-"urahisi wako"
-
-#: pages/templates/home.html:357
-msgid "Reorder"
-msgstr "Agiza Tena"
-
-#: pages/templates/home.html:358
-msgid "Hustle free reordering of medications from your previous orders"
-msgstr "Kuagiza tena dawa bila usumbufu kutoka kwa maagizo yako ya awali"
-
-#: pages/templates/home.html:366
-msgid "Payment"
-msgstr "Malipo"
-
-#: pages/templates/home.html:367
-msgid "Pay instantly and securely using Selcom Pay during checkout"
-msgstr "Lipa papo hapo na kwa usalama ukitumia Selcom Pay wakati wa kulipia"
-
-#: pages/templates/home.html:375
-msgid "Delivery"
-msgstr "Uwasilishaji"
-
-#: pages/templates/home.html:376
-msgid "We provide fast and reliable deliveries to your facility"
-msgstr "Tunatoa usafirishaji wa haraka na wa kuaminika hadi kituo chako"
-
-#: pages/templates/home.html:384
-msgid "Orders"
-msgstr "Maagizo"
-
-#: pages/templates/home.html:385
-msgid "Review your previous orders to help you manage your stock well"
-msgstr ""
-"Pitia maagizo yako ya awali ili kukusaidia kusimamia bidhaa zako vizuri"
-
-#: pages/templates/home.html:393
-msgid "Categories"
-msgstr "Jamii"
-
-#: pages/templates/home.html:394
-msgid "Browse through different categories to easily find the medications."
-msgstr "Pitia aina mbalimbali za bidhaa kwa urahisi kupata dawa unazohitaji."
-
-#: pages/templates/home.html:411 pages/templates/team.html:134
-msgid "Trusted by over 2K+ clients across Africa"
-msgstr "Inategemewa na zaidi ya wateja 2K+ barani Afrika"
-
-#: pages/templates/team.html:12
-msgid ""
-"At the heart of our mission to transform healthcare access is a team of "
-"passionate and experienced professionals."
-msgstr ""
-"Moyo wa dhamira yetu ya kubadilisha upatikanaji wa huduma za afya ni timu ya "
-"wataalamu walio na shauku na uzoefu."
+#: pages/templates/team.html:38
+msgid "Management"
+msgstr "Usimamizi"

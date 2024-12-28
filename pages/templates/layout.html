@@ -166,8 +166,8 @@
               <div class="row gy-6 gy-lg-0">
                   <div class="col-lg-4">
                       <div class="widget">
-                          <h3 class="h2 mb-3">{% trans 'Dawa Mkononi App is available in your favourite store' %}</h3>
-                          <p class="lead mb-3 fs-17">{% trans 'Download it now from your favourite store.' %}</p>
+                          <h3 class="h3 mb-3">{% trans 'Dawa Mkononi App is available in your favourite store' %}</h3>
+                          
                           <span><a href="https://play.google.com/store/apps/details?id=com.dawamkononi.buyers"
                                   target="_blank" class="btn btn-secondary rounded-pill mb-2 mb-md-0"><i
                                       class="uil uil-google-play"></i> Play
@@ -179,8 +179,8 @@
   
                   <div class="col-lg-4">
             <div class="widget">
-              <h3 class="h2 mb-3">{% trans 'Are you in need of bulk supply of pharmaceuticals?' %}</h3>
-              <br>
+              <h3 class="h3 mb-3">{% trans 'Transforming Health System through Data-driven Innovation' %}</h3>
+             
               <div class="dropdown">
                 <button class="btn btn-outline-primary rounded-pill me-1 dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
                   {% get_current_language as LANGUAGE_CODE %}
@@ -206,7 +206,7 @@
                       <div class="widget">
                           <h3 class="widget-title mb-3"><i class="uil uil-notes"></i> Explore</h3>
                           <ul class="list-unstyled mb-0 fs-17">
-  
+                             <li><a href="{% url 'about' %}" class="link-body hover">About Us</a></li>
                               <li><a href="{% url 'contact' %}" class="link-body hover">Our Contacts</a></li>
                               <li><a href="/privacy-policy/" class="link-body hover">Privacy Policy</a></li>
                           </ul>
@@ -234,7 +234,9 @@
                   <p class="mb-2 mb-lg-0">© <script>
                           document.write(new Date().getFullYear());
                       </script> DMRX Pharmacy<br />All Rights Reserved</p>
+                      
               </div>
+              
           </div>
       </footer>
   <div class="progress-wrap">
@@ -245,6 +247,7 @@
   <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="{% static 'assets/js/plugins.js' %}"></script>
   <script src="{% static 'assets/js/theme.js' %}"></script>
+  <script src="{% static 'assets/js/custom.js' %}"></script>
 </body>
 
 </html>

@@ -1,0 +1,459 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}  
+
+
+<section class="wrapper bg-light">
+  <div class="container-card">
+    <div class="card bg-soft-primary  rounded-4 mt-2 mb-13 mb-md-17">
+      <div class="card-body p-md-10 py-xl-11 px-xl-15">
+        <div class="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
+          <div class="col-lg-6 order-lg-2 d-flex position-relative">
+            <img class="img-fluid ms-auto mx-auto me-lg-8" data-cue="slideInUp" src="{% static 'assets/img/photos/info1.png' %}"  alt="" data-cue="fadeIn">
+           
+          </div>
+          <!--/column -->
+          <div class="col-lg-6 text-center text-lg-start" data-cues="slideInDown" data-group="page-title" data-delay="600">
+            <h1 class="display-1 mb-5">{%  trans 'Improving Access to Medicines in Africa' %}</h1>
+            
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!--/.card-body -->
+    </div>
+    <!--/.card -->
+  </div>
+  <!-- /.container-card -->
+</section>
+<!-- /section -->
+
+
+
+
+
+  <section class="wrapper bg-light">
+    <div class="container py-14 py-md-10">
+      <p class="text-center mb-8">{% trans "Our Valued Investors" %}</p>
+      <div class="row justify-content-center align-items-center gy-4" data-cues="fadeIn">
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/1.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/2.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/3.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/4.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/5.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+       
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+
+ 
+
+  
+  <section class="wrapper bg-soft-primary">
+    <div class="container py-10 py-md-15">
+      <div class="row gx-lg-8 gx-xl-12 gy-10 align-items-center">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-5" data-cues="slideInUp" data-group="images">            
+          <h3 class="display-6 mb-7 pe-xxl-5">{% trans 'Our Approach to Improving Healthcare Supply Chains' %}</h3>
+          <div class="d-flex flex-row mb-2">
+            <div>
+              <img src="{% static 'assets/img/icons/solid/currency.svg' %}"  class="svg-inject icon-svg icon-svg-sm solid text-primary me-4" alt="" />
+            </div>
+            <div>
+              <h5 class="mb-1">{% trans 'Credit Financing' %}</h5>
+              <p class="mb-1">{% trans 'Helping healthcare providers manage cash flow efficiently.' %}</p>
+            
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-4">
+            <div>
+              <img src="{% static 'assets/img/icons/solid/push-cart.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-primary me-4" alt="" />
+            </div>
+            <div>
+              <h5 class="mb-1">{% trans 'Extensive Product Range' %}</h5>
+              <p class="mb-1">{% trans 'Access to high-quality, authentic medications.' %}</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-4">
+            <div>
+              <img src="{% static 'assets/img/icons/solid/bar-chart.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-primary me-4" alt="" />
+            </div>
+            <div>
+              <h5 class="mb-1">{% trans 'Data-Driven Ordering' %}</h5>
+              <p class="mb-0">{% trans 'Simplifying procurement with intelligent insights.' %}</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-4">
+            <div>
+              <img src="{% static 'assets/img/icons/solid/shipment.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-primary me-4" alt="" />
+            </div>
+            <div>
+              <h5 class="mb-1">{% trans 'On-time Delivery' %}</h5>
+              <p class="mb-0">{% trans 'Timely distribution to avoid stockouts.' %}</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row">
+            <div>
+              <img src="{% static 'assets/img/icons/solid/secure.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-primary me-4" alt="" />
+            </div>
+            <div>
+              <h5 class="mb-1">{% trans 'Authentic Products' %}</h5>
+              <p class="mb-0">{% trans 'Reducing the risk of counterfeit medicines.' %}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <figure><img class="w-auto rounded" data-cue="slideInUp" src="{% static 'assets/img/photos/home.png' %}"  alt="" /></figure>
+        </div>
+        <div class="col-lg-1"></div>
+        <!--/column -->
+        
+        <!--/column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+ 
+
+  
+
+  <section class="wrapper ">
+    <div class="container">
+      <div class="row gx-0 gy-10 gy-md-13 gy-lg-0 mb-10 mb-md-1 align-items-center">
+        <div class="col-lg-6 position-relative">
+          <div class="p-9 pe-0 p-xxl-11 pe-xxl-0">
+            
+            <figure class="position-relative rounded" data-cue="slideInUp"><img src="{% static 'assets/img/photos/h2.png' %}"  alt="" /></figure>
+          
+          
+          
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-lg-5 ms-auto">
+          <h2 class="fs-16 text-uppercase text-primary mb-3">{% trans 'Our Impact' %}</h2>
+          <h2 class="display-2 mb-4">{% trans 'Reduced Stockouts' %}</h2>
+          <div class="d-flex flex-row pe-xxl-15 mb-6 ">
+          
+            <p class="mb-0">{% trans 'Through Data-driven Innovation, Health facilities now have consistent access to essential drugs.' %}</p>
+          </div>
+          
+        </div>
+        <!--/column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+  <section class="wrapper  bg-soft-primary">
+    <div class="container py-1 py-md-1">
+      <div class="row gx-0 gy-10 gy-md-10 gy-lg-0 mb-10 mb-md-1 align-items-center">
+        <div class="col-lg-5 ms-auto">
+          <h2 class="fs-16 text-uppercase text-primary mb-3">{% trans 'Our Impact' %}</h2>
+          <h2 class="display-2 mb-4">{% trans 'Improve cashflows' %}</h2>
+          <div class="d-flex flex-row pe-xxl-15 mb-6 ">
+          
+            <p class="mb-0">{% trans 'Optimize resources, reduce waste, and keep your business thriving with Dawa Mkononi.' %}</p>
+          </div>
+          
+        </div>
+        <!--/column -->
+        <div class="col-lg-6 position-relative">
+          <div class="p-9 pe-0 p-xxl-11 pe-xxl-0">
+            <figure class="position-relative rounded"><img data-cue="slideInUp" src="{% static 'assets/img/photos/h3.png' %}"  alt="" /></figure>
+            <div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; right: -7%">
+              <div class="card-body py-4 px-5">
+                <div class="d-flex flex-row align-items-center">
+                  <div>
+                    <div class="svg-bg bg-pale-primary rounded-circle me-3"><img src="{% static 'assets/img/icons/solid/coin-rise.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-primary" alt="" /></div>
+                  </div>
+                  <div>
+                    <h3 class="fs-25 counter mb-0 text-nowrap">$4M+</h3>
+                    <p class="fs-16 lh-sm mb-0 text-nowrap">{% trans 'Credit Finance' %}</p>
+                  </div>
+                </div>
+              </div>
+              <!--/.card-body -->
+            </div>
+            <!--/.card -->
+           
+          </div>
+        </div>
+        <!--/column -->
+        
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+  <section class="wrapper ">
+    <div class="container py-1 py-md-1">
+      <div class="row gx-0 gy-10 gy-md-13 gy-lg-0 mb-10 mb-md-10 align-items-center">
+        <div class="col-lg-6 position-relative">
+          <div class="p-9 pe-0 p-xxl-11 pe-xxl-0">
+            
+            <figure class="position-relative rounded"><img data-cue="slideInUp" src="{% static 'assets/img/photos/h4.png' %}"  alt="" /></figure>
+            <div class="card shadow-lg position-absolute d-none d-md-block" style="top: 15%; right: -7%">
+           
+            </div>
+            <!--/.card -->
+          
+          
+          </div>
+        </div>
+        <!--/column -->
+        <div class="col-lg-5 ms-auto">
+          <h2 class="fs-16 text-uppercase text-primary mb-3">{% trans 'Our Impact' %}</h2>
+          <h2 class="display-2 mb-4">{% trans 'Reduced Counterfeits Medicines' %}</h2>
+          <div class="d-flex flex-row pe-xxl-15 mb-6 ">
+          
+            <p class="mb-0">{% trans 'Our focus on authentic products has drastically lowered the circulation of counterfeit medications.' %}</p>
+          </div>
+          
+        </div>
+        <!--/column -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+  <section class="wrapper bg-light mb-1">
+    <div class="container-card">
+      <div class="card  bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" >
+        <div class="card-body py-14 px-0 bg-soft-primary" style="border-radius: 1rem;">
+          <div class="container">
+            <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
+              <div class="col-lg-4 text-center text-lg-start">
+                <h4 class="display-5 mb-3 pe-xxl-15">{% trans 'Making a Difference' %}</h4>
+                <p class="lead fs-lg mb-0 pe-xxl-10">{% trans 'Improving Access to Medicines in Africa.' %}</p>
+              </div>
+              <!-- /column -->
+              <div class="col-lg-8 mt-lg-2">
+                <div class="row align-items-center counter-wrapper gy-6 text-center">
+                  <div class="col-md-4">
+                    <img src="{% static 'assets/img/icons/solid/discussion.svg' %}" class="svg-inject icon-svg icon-svg-sm solid  text-red-black mb-3" alt="" />
+                    <h3 class="counter">2,200+</h3>
+                    <p class="mb-0">{% trans 'Active customers.' %}</p>
+                  </div>
+                  <!--/column -->
+                  <div class="col-md-4">
+                    <img src="{% static 'assets/img/icons/solid/currency.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-red-black mb-3" alt="" />
+                    <h3 class="counter">$200</h3>
+                    <p class="mb-0">{% trans 'Average Order value' %}</p>
+                  </div>
+                  <!--/column -->
+                  <div class="col-md-4">
+                    <img src="{% static 'assets/img/icons/solid/target.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-red-black mb-3" alt="" />
+                    <h3 class="counter">$10M+</h3>
+                    <p class="mb-0">{% trans 'Total Sales' %}</p>
+                  </div>
+                  <!--/column -->
+                </div>
+                <!--/.row -->
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /.container -->
+        </div>
+        <!--/.card-body -->
+      </div>
+      <!--/.card -->
+    </div>
+    <!-- /.container-card -->
+   
+  </section>
+  <!-- /section -->
+
+
+
+
+<section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map" data-image-src="{% static 'assets/img/map.png' %}">
+  <div class="container py-16 pt-md-16 pb-md-18">
+    <div class="row pt-md-12">
+      <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+        <h2 class="fs-15 text-uppercase text-primary mb-3">{% trans 'Our Impact' %}</h2>
+        <h4 class="display-4 mb-8 px-lg-12">{% trans 'Improving Access to Medicines in Africa' %}</h4>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /column -->
+    <div class="row pb-md-12">
+      <div class="col-md-10 col-lg-9 col-xl-7 mx-auto">
+        <div class="row align-items-center counter-wrapper gy-4 gy-md-0">
+          <div class="col-md-4 text-center">
+            <h3 class="counter counter-lg text-primary">500,000+</h3>
+            <p>{% trans 'Patients Served' %}</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-4 text-center">
+            <h3 class="counter counter-lg text-primary">1000+</h3>
+            <p>{% trans 'Pharmacies Reached' %}</p>
+          </div>
+          <!--/column -->
+          <div class="col-md-4 text-center">
+            <h3 class="counter counter-lg text-primary">$4M+</h3>
+            <p>{% trans 'Credit Financing Provided' %}</p>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /column -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
+<!-- /section -->
+  
+  
+  <section class="wrapper bg-light">
+    <div class="container py-10 py-md-15">
+      <div class="row text-center">
+        <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mx-auto position-relative">          
+         
+        
+          <h5 class="display-3 mb-12 text-center">{% trans 'Our Dawa Mkononi app empowers healthcare providers' %} </h5>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+      <div class="row d-flex align-items-start mb-1">
+        <div class="col-lg-6 position-lg-sticky" style="top: 8rem;">
+          <figure><img data-cue="slideInUp" src="{% static 'assets/img/photos/devices.png' %}" alt=""></figure>
+        </div>
+        <!-- /column -->
+        <div class="col-lg-5 ms-auto">
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg  bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/layers.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Stock List' %}</h4>
+              <p>{% trans 'Digitize your stock process,by having a virtual paper for your convenience' %}.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/currency.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Reorder' %}</h4>
+              <p>{% trans 'Hustle free reordering of medications from your previous orders' %}.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg  bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/server.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Payment' %}</h4>
+              <p>{% trans 'Pay instantly and securely using Selcom Pay during checkout' %}.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg  bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/shipment.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Delivery' %}</h4>
+              <p>{% trans 'We provide fast and reliable deliveries to your facility' %}.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg  bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/shopping-cart.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Orders' %}</h4>
+              <p>{% trans 'Review your previous orders to help you manage your stock well' %}.</p>
+            </div>
+          </div>
+          <div class="d-flex flex-row mb-8">
+            <div>
+              <div class="svg-bg svg-bg-lg  bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/compare.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
+            </div>
+            <div>
+              <h4 class="fs-20">{% trans 'Categories' %}</h4>
+              <p>{% trans 'Browse through different categories to easily find the medications.' %}</p>
+            </div>
+          </div>
+        </div>
+        <!-- /column -->
+      </div>
+      <!-- /.row -->
+     
+    
+      <!-- /.grid-view -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /section -->
+
+  <section class="wrapper bg-light">
+    <div class="container py-14 py-md-16">
+      <p class="text-center mb-8">{% trans "Empowered Through Grants and Support" %}</p>
+      <div class="row justify-content-center align-items-center gy-4" data-cues="fadeIn">
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/6.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/7.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/8.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/9.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/10.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+       
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </section>
+ 
+
+
+
+
+{% endblock content %}

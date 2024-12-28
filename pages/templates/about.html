@@ -4,21 +4,31 @@
 
 {% block content %}  
 
-<section class="wrapper bg-gray">
-    <div class="container pt-10 pt-md-14 text-center">
+<section class="section-frame mx-xxl-11 overflow-hidden">
+  <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-100"  data-image-src="{% static 'assets/img/photos/bgteam1.png' %}">
+    <div class="container py-16 py-md-18 text-center position-relative">
+      
       <div class="row">
-        <div class="col-xl-6 mx-auto" data-cues="slideInDown" ata-delay="600">
-          <h1 class="display-1 mb-4">{% trans 'Dawa Mkononi' %}</h1>
-          <p class="lead fs-lg mb-0">{% trans 'Improving Access to Medicines in Africa' %}</p>
+        <div class="col-lg-9 col-xxl-8 mx-auto">
+          <br><br><br><br>
+          <h1 class="display-1 fs-70 px-md-10 px-lg-0 px-xl-8 mb-5 text-white"> <span class="typer text-gray" 
+            data-loop="false" 
+            data-delay="100" 
+            data-words="Dawa Mkononi.">
+      </span><span class="cursor text-white" data-owner="typer"></span></h1>
+          <br><br>
+          <a href="#impact" class="btn btn-lg btn-primary btn-icon btn-icon-end">Our Impact <i class="uil uil-arrow-up-right"></i></a>
         </div>
         <!-- /column -->
       </div>
       <!-- /.row -->
     </div>
     <!-- /.container -->
-    <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img src="{% static 'assets/img/photos/bg12.jpg' %}" alt="" /></figure>
-  </section>
-  <!-- /section -->
+  </div>
+  <!-- /.wrapper -->
+</section>
+
+
    <!-- /section -->
 <section class="wrapper bg-light">
     <div class="container py-14 py-md-18">
@@ -32,38 +42,6 @@
                 <p class="lead">{% trans "Dawa Mkononi is focused on using innovation to improve the supply chain. Dawa Mkononi's operations mainly target pharmacies, health facilities, and other registered B2B clients. With its data-driven approaches, we have a mission of improving access to medicine distribution and making medicines more available to health facilities." %} </p>
                 <p class="mb-6">{% trans 'Dawa Mkononi is a product of DMRX Inc., a United States of America-based Company. DMRX Inc. is the holding company of DMRX Company Limited, a company incorporated in Tanzania.' %}</p>
 
-                <div class="row gx-xl-10 gy-6" data-cue="slideInUp">
-                    <div class="col-md-6">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <img src="{% static 'assets/img/icons/solid/lamp.svg' %}" class="svg-inject icon-svg solid text-primary icon-svg-sm me-4" alt="Daktari Mkononi Pharmacy Dawa Mkononi App Target Icon" />
-
-                            </div>
-                            <div>
-                                <h4 class="mb-1">{% trans 'Our Vision' %}</h4>
-                                <p class="mb-0">
-                                    {% trans 'To lead pharmaceutical innovation in Africa, making quality medicines more accessible to all.' %}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6" data-cue="slideInUp">
-                        <div class="d-flex flex-row">
-                            <div>
-                                <img src="{% static 'assets/img/icons/solid/target.svg' %}" class="svg-inject icon-svg solid text-primary icon-svg-sm me-4" alt="Daktari Mkononi Pharmacy Dawa Mkononi App Award Icon" />
-                            </div>
-                            <div>
-                                <h4 class="mb-1">{% trans 'Our Mission' %}</h4>
-                                <p class="mb-0">{% trans 'To improve access and availability of medicines in African communities.' %}</p>
-                            </div>
-                        </div>
-                    </div>
-      
-                
-                    <!--/column -->
-                
-                    <!--/column -->
-                </div>
-                <!--/.row -->
             </div>
             <!--/column -->
         </div>
@@ -72,69 +50,46 @@
     <!-- /.container -->
 </section>
 <!-- /section -->
-<section class="wrapper bg-soft-primary">
-  <div class="container py-1 pt-md-12 pb-md-1">
-    <div class="row gx-md-8 gx-xl-12 gy-10 mb-14 mb-md-10 align-items-center">
-      <div class="col-lg-6 order-lg-2">
-        <div class="card shadow-lg me-lg-6" data-cue="slideInUp" data-interval="-200">
-          <div class="card-body p-6">
-            <div class="d-flex flex-row">
-              <div>
-              <div class="svg-bg svg-bg-sm bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/push-cart.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
-              </div>
-              <div>
-                <h4 class="mb-1">{% trans 'Reduced Stockouts' %}</h4>
-                <p class="mb-0">{% trans 'Health facilities now have consistent access to essential drugs, improving patient outcomesReduced Stockouts.' %} </p>
-              </div>
-            </div>
+
+<section class="wrapper bg-light">
+  <div class="container py-2 py-md-5">
+    <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 mb-md-18" data-cues="slideInLeft" data-group="images">
+      <div class="col-1"></div>
+      <div class="col-lg-5">
+        <div class="d-flex flex-row">
+          <div>
+            <img src="{% static 'assets/img/icons/solid/lamp.svg' %}" class="svg-inject icon-svg solid text-primary icon-svg-sm me-5" alt="" />
           </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
-        <div class="card shadow-lg ms-lg-13 mt-6" data-cue="slideInUp" data-interval="1000">
-          <div class="card-body p-6">
-            <div class="d-flex flex-row">
-              <div>
-                  <div class="svg-bg svg-bg-sm bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/coin-decrease.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
-              </div>
-              <div>
-                <h4 class="mb-1">{% trans 'Improved Cash Flow' %}</h4>
-                <p class="mb-0">{% trans 'Improved HFs economic state by cutting down costs' %} </p>
-              </div>
-            </div>
+          <div>
+            <h4 class="fs-20 ls-sm">{% trans 'Our Vision' %}</h4>
+            <p class="mb-2">{% trans 'To lead pharmaceutical innovation in Africa, making quality medicines more accessible to all.' %}</p>
           </div>
-          <!--/.card-body -->
         </div>
-        <!--/.card -->
-        <div class="card shadow-lg mx-lg-6 mt-6" data-cue="slideInUp" data-interval="-0.2">
-          <div class="card-body p-6">
-            <div class="d-flex flex-row">
-              <div>
-                  <div class="svg-bg svg-bg-sm bg-pale-pink rounded-xl me-5"><img src="{% static 'assets/img/icons/solid/bar-chart-2.svg' %}" class="svg-inject icon-svg solid text-red-black" alt="" /></div>
-              </div>
-              <div>
-                <h4 class="mb-1">{% trans 'Fewer Counterfeits' %}</h4>
-                <p class="mb-0">{% trans 'Our focus on authentic products has drastically lowered the circulation of counterfeit medications.' %}</p>
-              </div>
-            </div>
-          </div>
-          <!--/.card-body -->
-        </div>
-        <!--/.card -->
       </div>
       <!--/column -->
-      <div class="col-lg-6">
-        <h2 class="fs-16 text-uppercase text-primary mb-3">{% trans 'Outcomes' %}</h2>
-        <h3 class="display-2 mb-5">{% trans 'Our innovations drive measurable impact' %}</h3>
-        <p>{% trans 'Dawa Mkononi revolutionizes medicine distribution, ensuring availability, boosting cash flow, cutting costs, and improving healthcare access.' %}</p>
-        
+      <div class="col-lg-5">
+        <div class="d-flex flex-row">
+          <div>
+            <img src="{% static 'assets/img/icons/solid/target.svg' %}" class="svg-inject icon-svg solid text-primary icon-svg-sm me-5" alt="" />
+          </div>
+          <div>
+            <h4 class="fs-20 ls-sm">{% trans 'Our Mission' %}</h4>
+            <p class="mb-2">{% trans 'To improve access and availability of medicines in African communities.' %}</p>
+          </div>
+        </div>
       </div>
       <!--/column -->
+      <div class="col-1"></div>
+     
     </div>
     <!--/.row -->
+  </div>
+  <!-- /.container -->
 </section>
+<!-- /section -->
 
-<section class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map" data-image-src="{% static 'assets/img/map.png' %}">
+
+<section id="impact" class="wrapper image-wrapper bg-auto no-overlay bg-image text-center bg-map" data-image-src="{% static 'assets/img/map.png' %}">
   <div class="container py-14 pt-md-16 pb-md-18">
     <div class="row pt-md-12">
       <div class="col-lg-10 col-xl-9 col-xxl-8 mx-auto">
@@ -173,161 +128,8 @@
 </section>
 <!-- /section -->
 
-<section class="wrapper bg-light mb-1">
-  <div class="container-card">
-    <div class="card  bg-full bg-image bg-overlay bg-overlay-light-500 pb-15" >
-      <div class="card-body py-14 px-0 bg-soft-primary" style="border-radius: 1rem;">
-        <div class="container">
-          <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0">
-            <div class="col-lg-4 text-center text-lg-start">
-              <h3 class="display-4 mb-3 pe-xxl-15">{% trans 'We are proud of our works' %}</h3>
-              <p class="lead fs-lg mb-0 pe-xxl-10">{% trans 'Improving Access to Medicines in Africa.' %}</p>
-            </div>
-            <!-- /column -->
-            <div class="col-lg-8 mt-lg-2">
-              <div class="row align-items-center counter-wrapper gy-6 text-center">
-                <div class="col-md-4">
-                  <img src="{% static 'assets/img/icons/solid/discussion.svg' %}" class="svg-inject icon-svg icon-svg-sm solid  text-red-black mb-3" alt="" />
-                  <h3 class="counter">2,200+</h3>
-                  <p class="mb-0">{% trans 'Active customers.' %}</p>
-                </div>
-                <!--/column -->
-                <div class="col-md-4">
-                  <img src="{% static 'assets/img/icons/solid/currency.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-red-black mb-3" alt="" />
-                  <h3 class="counter">$200</h3>
-                  <p class="mb-0">{% trans 'Average Order value' %}</p>
-                </div>
-                <!--/column -->
-                <div class="col-md-4">
-                  <img src="{% static 'assets/img/icons/solid/target.svg' %}" class="svg-inject icon-svg icon-svg-sm solid text-red-black mb-3" alt="" />
-                  <h3 class="counter">$5,448,405</h3>
-                  <p class="mb-0">{% trans 'Sales Jan-Oct 2024' %}</p>
-                </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
-            </div>
-            <!-- /column -->
-          </div>
-          <!-- /.row -->
-        </div>
-        <!-- /.container -->
-      </div>
-      <!--/.card-body -->
-    </div>
-    <!--/.card -->
-  </div>
-  <!-- /.container-card -->
- 
-</section>
-<!-- /section -->
 
-  <section class="wrapper bg-light">
-    <div class="container py-8 py-md-8 ">
-      <div class="row mb-3">
-        <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
-          <h2 class="fs-15 text-uppercase text-primary mb-3">{% trans 'Our Team' %}</h2>
-          <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{% trans 'Dedicated to transforming healthcare' %}</h3>
-        </div>
-        <!--/column -->
-      </div>
-      <!--/.row -->
-      <div class="position-relative">
-        
-        <div class="swiper-container dots-closer mb-6" data-margin="15" data-dots="true" data-items-xxl="4" data-items-lg="3" data-items-md="2" data-items-xs="1">
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te1.png' %}" alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Joseph Paul</h4>
-                        <p class="mb-0">CEO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te2.png" alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Clemence Exaudi</h4>
-                        <p class="mb-0">COO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te3.png"  alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Asorael Ayo</h4>
-                        <p class="mb-0">CTO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!--/.swiper-slide -->
-            
-              <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te4.png"  alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Shamsa Ibrahim</h4>
-                        <p class="mb-0">CFO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!--/.swiper-slide -->              
-             
-            
-            </div>
-            <!--/.swiper-wrapper -->
-          </div>
-          <!-- /.swiper -->
-        </div>
-        <!-- /.swiper-container -->
-      </div>
-      <!-- /.position-relative -->
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /section -->
+
 
  
 

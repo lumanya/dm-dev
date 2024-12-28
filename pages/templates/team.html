@@ -4,158 +4,181 @@
 
 {% block content %}  
 
-<section class="wrapper bg-gray">
-    <div class="container pt-10 pt-md-14 text-center">
+
+<section class="section-frame mx-xxl-11 overflow-hidden">
+  <div class="wrapper image-wrapper bg-image bg-cover bg-overlay bg-overlay-light-100" data-image-src="{% static 'assets/img/photos/bgteam1.png' %}">
+    <div class="container py-16 py-md-18 text-center position-relative">
+      
       <div class="row">
-        <div class="col-xl-6 mx-auto" data-cues="slideInDown" ata-delay="600">
-          <h1 class="fs-20 mb-4 text-primary">{% trans 'Our Team' %}</h1>
-          <p class="lead fs-lg mb-0">{% trans 'At the heart of our mission to transform healthcare access is a team of passionate and experienced professionals.' %}</p>
+        <div class="col-lg-9 col-xxl-8 mx-auto">
+          <br><br><br><br> <br>
+          <h1 class="display-1 fs-70 px-md-10 px-lg-0 px-xl-8 mb-5 text-white"> <span class="typer text-gray" 
+            data-loop="false" 
+            data-delay="100" 
+            data-words="Our Team.">
+      </span><span class="cursor text-white" data-owner="typer"></span></h1>
+          <br><br><br>
+
         </div>
         <!-- /column -->
       </div>
       <!-- /.row -->
     </div>
     <!-- /.container -->
-    <figure class="position-absoute" style="bottom: 0; left: 0; z-index: 2;"><img src="{% static 'assets/img/photos/bg12.jpg' %}" alt="" /></figure>
-  </section>
-  <!-- /section -->
+  </div>
+  <!-- /.wrapper -->
+</section>
    <!-- /section -->
 
-
-  <section class="wrapper bg-light">
-    <div class="container py-8 py-md-8 ">
-      <div class="row mb-3">
-        <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
-          <h2 class="fs-15 text-uppercase text-primary mb-3">{% trans 'Our Team' %}</h2>
-          <h3 class="display-4 mb-7 px-lg-19 px-xl-18">{% trans 'Dedicated to transforming healthcare' %}</h3>
-        </div>
-        <!--/column -->
+   <section class="wrapper bg-light">
+    <div class="container py-10 py-md-16">
+      <div class="text-center justify-content-center">
+        <ul class="nav nav-tabs nav-tabs-basic d-flex justify-content-center flex-nowrap">
+          <li class="nav-item"> <a class="nav-link active" data-bs-toggle="tab" href="#tab3-1">{% trans 'Board of Directors' %}</a> </li>
+          <li class="nav-item"> <a class="nav-link" data-bs-toggle="tab" href="#tab3-2">{% trans 'Management' %}</a> </li>
+       
+         </ul>
+      <!-- /.nav-tabs -->
       </div>
-      <!--/.row -->
-      <div class="position-relative">
-        
-        <div class="swiper-container dots-closer mb-6" data-margin="15" data-dots="true" data-items-xxl="4" data-items-lg="3" data-items-md="2" data-items-xs="1">
+      
+    <div class="tab-content mt-0 mt-md-5">
+      <div class="tab-pane fade show active" id="tab3-1">
+        <div class="swiper-container text-center mb-6"  data-autoplay="true" data-loop="true"  data-margin="30" data-dots="true" data-items-xl="4" data-items-md="2" data-items-xs="1">
           <div class="swiper">
             <div class="swiper-wrapper">
+              
               <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="{% static 'assets/img/avatars/te1.png' %}" alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Joseph Paul</h4>
-                        <p class="mb-0">CEO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te6.png' %}"  alt="" />
+                <h4 class="mb-1">Martin Warioba</h4>
+                <div class="meta mb-2">Chairman</div>
+              
+              
               </div>
+              <div class="swiper-slide">
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te1.png' %}"  alt="" />
+                <h4 class="mb-1">Joseph Paul</h4>
+                <div class="meta mb-2">CEO</div>
+              
+              
+              </div>
+              
               <!--/.swiper-slide -->
               <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te2.png" alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Clemence Exaudi</h4>
-                        <p class="mb-0">COO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te2.png' %}" alt="" />
+                <h4 class="mb-1">Clemence Exaudi</h4>
+                <div class="meta mb-2">COO</div>
+              
+              
               </div>
               <!--/.swiper-slide -->
+              
               <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te3.png"  alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Asorael Ayo</h4>
-                        <p class="mb-0">CTO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te5.png' %}"  alt="" />
+                <h4 class="mb-1">Aurelie Ette</h4>
+                <div class="meta mb-2">Director</div>                
+              
               </div>
-              <!--/.swiper-slide -->
-            
-              <div class="swiper-slide">
-                <div class="item-inner">
-                  <div class="position-relative text-center">
-                    <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="bottom: -0.75rem; right: -0.75rem; width: 98%; height: 98%; z-index:0"></div>
-                    <div class="card">
-                      <figure class="card-img-top"><img class="img-fluid" src="/static/assets/img/avatars/te4.png"  alt="" /></figure>
-                      <div class="card-body px-6 py-5">
-                        <h4 class="mb-1">Shamsa Ibrahim</h4>
-                        <p class="mb-0">CFO</p>
-                      </div>
-                      <!--/.card-body -->
-                    </div>
-                    <!-- /.card -->
-                  </div>
-                  <!-- /div -->
-                </div>
-                <!-- /.item-inner -->
-              </div>
-              <!--/.swiper-slide -->              
              
-            
+              
+              
+              </div>
+              <!--/.swiper-slide -->
             </div>
             <!--/.swiper-wrapper -->
           </div>
           <!-- /.swiper -->
-        </div>
-        <!-- /.swiper-container -->
       </div>
-      <!-- /.position-relative -->
-    </div>
-    <!-- /.container -->
-  </section>
-  <!-- /section -->
-
-  <section class="wrapper bg-light">
-    <div class="container py-14 py-md-16">
-      <p class="text-center mb-8">{% trans "Trusted by over 2K+ clients across Africa" %}</p>
-      <div class="swiper-container clients mb-0" data-margin="30" data-dots="false" data-loop="true" data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7" data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-xs="2">
-        <div class="swiper">
-          <div class="swiper-wrapper ticker">
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c1.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c2.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c3.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c4.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c5.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c6.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c7.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c8.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c9.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c10.png' %}" alt="" /></div>
-            <div class="swiper-slide px-5"><img src="{% static 'assets/img/brands/c11.png' %}" alt="" /></div>
+      <!--/.tab-pane -->
+      <div class="tab-pane fade show" id="tab3-2">
+         <div class="swiper-container text-center mb-6"  data-autoplay="true" data-loop="true"  data-margin="30" data-dots="true" data-items-xl="4" data-items-md="2" data-items-xs="1">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              
+              <div class="swiper-slide">
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te1.png' %}"  alt="" />
+                <h4 class="mb-1">Joseph Paul</h4>
+                <div class="meta mb-2">CEO</div>
+              
+              
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te2.png' %}"  alt="" />
+                <h4 class="mb-1">Clemence Exaudi</h4>
+                <div class="meta mb-2">COO</div>
+              
+              
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te3.png' %}"  alt="" />
+                <h4 class="mb-1">Asorael Ayo</h4>
+                <div class="meta mb-2">CTO</div>
+              
+              
+              </div>
+              <!--/.swiper-slide -->
+              <div class="swiper-slide">
+                <img class="rounded-circle w-20 mx-auto mb-4" src="{% static 'assets/img/avatars/te4.png' %}"  alt="" />
+                <h4 class="mb-1">Shamsa Ibrahim</h4>
+                <div class="meta mb-2">CFO</div>                
+              
+              </div>
+             
+              
+              
+              </div>
+              <!--/.swiper-slide -->
+            </div>
+            <!--/.swiper-wrapper -->
           </div>
-          <!--/.swiper-wrapper -->
-        </div>
-        <!-- /.swiper -->
+          <!-- /.swiper -->
       </div>
-      <!-- /.swiper-container -->
+      <!--/.tab-pane -->
+      
+    </div>
+    <!-- /.tab-content -->
+        <!--/column -->
+    </div>
+      <!--/.row -->
+    
+    <!-- /.container -->
+   </section>
+
+   <hr class="my-8" />
+
+  
+
+   <section class="wrapper bg-light">
+    <div class="container py-14 py-md-16">
+      <p class="text-center mb-8">{% trans "Our Valued Investors" %}</p>
+      <div class="row justify-content-center align-items-center gy-4" data-cues="fadeIn">
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/1.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/2.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/3.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/4.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+        <div class="col-6 col-md-3 col-lg-2 d-flex justify-content-center">
+          <figure class="px-5 px-md-0 px-lg-2 px-xl-3 px-xxl-4"><img src="{% static 'assets/img/brands/5.png' %}" alt="" /></figure>
+        </div>
+        <!--/column -->
+       
+      </div>
+      <!--/.row -->
     </div>
     <!-- /.container -->
   </section>
- 
 
 
 {% endblock content %}
