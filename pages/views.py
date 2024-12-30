@@ -15,3 +15,7 @@ class TeamPageView(TemplateView):
 
 class ContactPageView(TemplateView):
     template_name = 'contact.html'
+
+
+class PrivacyPolicy(TemplateView):
+    template_name = 'privacy_policy.html'
